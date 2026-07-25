@@ -1,0 +1,548 @@
+{
+  "series": [
+    {
+      "slug": "one-piece",
+      "title": "One Piece",
+      "publisher": "viz",
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "One Piece manga volume"
+    },
+    {
+      "slug": "chainsaw-man",
+      "title": "Chainsaw Man",
+      "publisher": "viz",
+      "genre": [
+        "Action",
+        "Horror"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Chainsaw Man manga volume"
+    },
+    {
+      "slug": "kaiju-no-8",
+      "title": "Kaiju No. 8",
+      "publisher": "viz",
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Kaiju No 8 manga volume"
+    },
+    {
+      "slug": "spy-x-family",
+      "title": "Spy x Family",
+      "publisher": "viz",
+      "genre": [
+        "Comedy",
+        "Action"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Spy x Family manga volume"
+    },
+    {
+      "slug": "dandadan",
+      "title": "Dandadan",
+      "publisher": "viz",
+      "genre": [
+        "Comedy",
+        "Supernatural"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Dandadan manga volume"
+    },
+    {
+      "slug": "sakamoto-days",
+      "title": "Sakamoto Days",
+      "publisher": "viz",
+      "genre": [
+        "Action",
+        "Comedy"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Sakamoto Days manga volume"
+    },
+    {
+      "slug": "blue-box",
+      "title": "Blue Box",
+      "publisher": "viz",
+      "genre": [
+        "Romance",
+        "Sports"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Blue Box manga volume"
+    },
+    {
+      "slug": "kagurabachi",
+      "title": "Kagurabachi",
+      "publisher": "viz",
+      "genre": [
+        "Action",
+        "Fantasy"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Kagurabachi manga volume"
+    },
+    {
+      "slug": "vinland-saga",
+      "title": "Vinland Saga",
+      "publisher": "kodansha",
+      "genre": [
+        "Action",
+        "Historical"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Vinland Saga manga volume"
+    },
+    {
+      "slug": "blue-lock",
+      "title": "Blue Lock",
+      "publisher": "kodansha",
+      "genre": [
+        "Sports"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Blue Lock manga volume"
+    },
+    {
+      "slug": "frieren",
+      "title": "Frieren: Beyond Journey's End",
+      "publisher": "kodansha",
+      "genre": [
+        "Fantasy",
+        "Drama"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Frieren Beyond Journeys End manga volume"
+    },
+    {
+      "slug": "wind-breaker",
+      "title": "Wind Breaker",
+      "publisher": "kodansha",
+      "genre": [
+        "Action",
+        "School"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Wind Breaker manga volume"
+    },
+    {
+      "slug": "witch-hat-atelier",
+      "title": "Witch Hat Atelier",
+      "publisher": "kodansha",
+      "genre": [
+        "Fantasy"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Witch Hat Atelier manga volume"
+    },
+    {
+      "slug": "akane-banashi",
+      "title": "Akane-banashi",
+      "publisher": "kodansha",
+      "genre": [
+        "Drama"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Akane-banashi manga volume"
+    },
+    {
+      "slug": "oshi-no-ko",
+      "title": "Oshi no Ko",
+      "publisher": "yen-press",
+      "genre": [
+        "Drama",
+        "Showbiz"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Oshi no Ko manga volume"
+    },
+    {
+      "slug": "made-in-abyss",
+      "title": "Made in Abyss",
+      "publisher": "yen-press",
+      "genre": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Made in Abyss manga volume"
+    },
+    {
+      "slug": "the-fable",
+      "title": "The Fable",
+      "publisher": "yen-press",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "The Fable manga volume"
+    },
+    {
+      "slug": "uzaki-chan",
+      "title": "Uzaki-chan Wants to Hang Out!",
+      "publisher": "yen-press",
+      "genre": [
+        "Comedy"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Uzaki-chan Wants to Hang Out manga volume"
+    },
+    {
+      "slug": "mushoku-tensei",
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "publisher": "seven-seas",
+      "genre": [
+        "Fantasy",
+        "Isekai"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Mushoku Tensei manga volume"
+    },
+    {
+      "slug": "tensei-slime",
+      "title": "That Time I Got Reincarnated as a Slime",
+      "publisher": "seven-seas",
+      "genre": [
+        "Fantasy",
+        "Isekai"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "That Time I Got Reincarnated as a Slime manga volume"
+    },
+    {
+      "slug": "villainess",
+      "title": "My Next Life as a Villainess",
+      "publisher": "seven-seas",
+      "genre": [
+        "Comedy",
+        "Isekai"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "My Next Life as a Villainess manga volume"
+    },
+    {
+      "slug": "classroom-elite",
+      "title": "Classroom of the Elite",
+      "publisher": "seven-seas",
+      "genre": [
+        "Drama",
+        "School"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Classroom of the Elite manga volume"
+    },
+    {
+      "slug": "apothecary-diaries",
+      "title": "The Apothecary Diaries",
+      "publisher": "square-enix",
+      "genre": [
+        "Mystery",
+        "Historical"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "The Apothecary Diaries manga volume"
+    },
+    {
+      "slug": "dress-up-darling",
+      "title": "My Dress-Up Darling",
+      "publisher": "square-enix",
+      "genre": [
+        "Romance"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "My Dress-Up Darling manga volume"
+    },
+    {
+      "slug": "shangri-la-frontier",
+      "title": "Shangri-La Frontier",
+      "publisher": "square-enix",
+      "genre": [
+        "Action",
+        "Game"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Shangri-La Frontier manga volume"
+    },
+    {
+      "slug": "yotsuba",
+      "title": "Yotsuba&!",
+      "publisher": "square-enix",
+      "genre": [
+        "Slice of Life",
+        "Comedy"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Yotsuba manga volume"
+    }
+  ],
+  "releases": [
+    {
+      "id": "r1",
+      "seriesSlug": "one-piece",
+      "volume": 109,
+      "date": "2026-07-29",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r2",
+      "seriesSlug": "chainsaw-man",
+      "volume": 19,
+      "date": "2026-07-22",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r3",
+      "seriesSlug": "kaiju-no-8",
+      "volume": 15,
+      "date": "2026-08-05",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r4",
+      "seriesSlug": "spy-x-family",
+      "volume": 14,
+      "date": "2026-07-31",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r5",
+      "seriesSlug": "dandadan",
+      "volume": 21,
+      "date": "2026-08-19",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r6",
+      "seriesSlug": "sakamoto-days",
+      "volume": 18,
+      "date": "2026-07-26",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r7",
+      "seriesSlug": "blue-box",
+      "volume": 12,
+      "date": "2026-09-02",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r8",
+      "seriesSlug": "kagurabachi",
+      "volume": 6,
+      "date": "2026-08-12",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r9",
+      "seriesSlug": "vinland-saga",
+      "volume": 17,
+      "date": "2026-08-26",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r10",
+      "seriesSlug": "blue-lock",
+      "volume": 34,
+      "date": "2026-07-30",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r11",
+      "seriesSlug": "frieren",
+      "volume": 15,
+      "date": "2026-08-06",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r12",
+      "seriesSlug": "wind-breaker",
+      "volume": 13,
+      "date": "2026-07-23",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r13",
+      "seriesSlug": "witch-hat-atelier",
+      "volume": 15,
+      "date": "2026-09-09",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r14",
+      "seriesSlug": "akane-banashi",
+      "volume": 11,
+      "date": "2026-08-20",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r15",
+      "seriesSlug": "oshi-no-ko",
+      "volume": 17,
+      "date": "2026-08-13",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r16",
+      "seriesSlug": "made-in-abyss",
+      "volume": 14,
+      "date": "2026-09-16",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r17",
+      "seriesSlug": "the-fable",
+      "volume": 24,
+      "date": "2026-07-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r18",
+      "seriesSlug": "uzaki-chan",
+      "volume": 11,
+      "date": "2026-08-27",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r19",
+      "seriesSlug": "mushoku-tensei",
+      "volume": 16,
+      "date": "2026-08-04",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r20",
+      "seriesSlug": "tensei-slime",
+      "volume": 24,
+      "date": "2026-07-28",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r21",
+      "seriesSlug": "villainess",
+      "volume": 13,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r22",
+      "seriesSlug": "classroom-elite",
+      "volume": 14,
+      "date": "2026-08-18",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r23",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 12,
+      "date": "2026-07-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r24",
+      "seriesSlug": "dress-up-darling",
+      "volume": 13,
+      "date": "2026-08-11",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r25",
+      "seriesSlug": "shangri-la-frontier",
+      "volume": 14,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    },
+    {
+      "id": "r26",
+      "seriesSlug": "yotsuba",
+      "volume": 16,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": false,
+      "source": "amazon"
+    }
+  ],
+  "generatedAt": "2026-07-25T20:30:16.158Z"
+}
