@@ -1,0 +1,9 @@
+{
+  "app": {
+    "[project]/app/page": [],
+    "[project]/app/series/[slug]/page": []
+  },
+  "appUsingSizeAdjust": false,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

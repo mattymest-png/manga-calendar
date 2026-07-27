@@ -542,7 +542,16 @@
       "format": "physical",
       "confirmed": false,
       "source": "amazon"
+    },
+    {
+      "id": "r27",
+      "seriesSlug": "uzaki-chan",
+      "volume": 14,
+      "date": "2026-08-18",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-07-25T20:30:16.158Z"
+  "generatedAt": "2026-07-27T06:13:25.005Z"
 }

@@ -68,13 +68,33 @@ const ADAPTERS = {
     },
   },
   "seven-seas": {
+    // CONFIRMED WORKING (2026-07) — real markup, not a placeholder. The page
+    // has a sortable table (#releasedates) further down from the visual
+    // thumbnail grid at the top; the table is far easier to parse and
+    // already gives ISO dates plus a format column (Manga / Light Novel /
+    // Manhwa / Novel / Manhua / OEL / Audiobook).
     url: "https://sevenseasentertainment.com/release-dates/",
-    itemSelector: ".release-row", // SELECTOR BELOW: adjust
+    itemSelector: "table#releasedates tr#volumes",
+    onlyFormats: ["Manga", "Manhwa", "Manhua"], // skip Novel/Light Novel/Audiobook/OEL — not tracked in series.csv yet
     parseItem($, el) {
-      const title = $(el).find(".release-title").first().text().trim();
-      const volumeText = $(el).find(".release-volume").first().text().trim();
-      const dateText = $(el).find(".release-date").first().text().trim();
-      return { rawTitle: title, rawVolume: volumeText, rawDate: dateText };
+      const tds = $(el).find("td");
+      const rawDate = $(tds[0]).text().trim(); // already YYYY-MM-DD, no parsing needed
+      const rawTitleFull = $(tds[1]).find("strong").text().trim();
+      const format = $(tds[2]).text().trim();
+
+      // Titles look like: "Mushoku Tensei: Jobless Reincarnation (Manga) Vol. 23"
+      // or one-shots with no volume: "WONDER CATS". Strip the (Format) tag
+      // and any trailing [Ebook] marker before extracting title/volume.
+      const cleaned = rawTitleFull
+        .replace(/\s*\((Manga|Light Novel|Novel|Manhwa|Manhua|Audiobook)\)\s*/gi, " ")
+        .replace(/\s*\[Ebook\]\s*/gi, "")
+        .trim();
+
+      const volMatch = cleaned.match(/^(.*?)\s+Vol\.\s*(\d+)/i);
+      const rawTitle = volMatch ? volMatch[1].trim() : cleaned;
+      const rawVolume = volMatch ? volMatch[2] : null; // null = one-shot, skip in caller
+
+      return { rawTitle, rawVolume, rawDate, format };
     },
   },
   "square-enix": {
@@ -134,30 +154,50 @@ function normalizeDate(text) {
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
-async function scrape(publisherSlug) {
+async function scrape(publisherSlug, localFile) {
   const adapter = ADAPTERS[publisherSlug];
   if (!adapter) {
     console.error(
       `No adapter for "${publisherSlug}". Options: ${Object.keys(ADAPTERS).join(", ")}`
     );
-    process.exit(1);
+    process.exitCode = 1;
+    return;
   }
 
-  console.log(`Fetching ${adapter.url} ...`);
-  const res = await fetch(adapter.url, {
-    headers: {
-      // Identify your scraper honestly and respect robots.txt / rate limits.
-      "User-Agent": "NextVolumeBot/0.1 (+contact: you@example.com)",
-    },
-  });
-  if (!res.ok) {
-    console.error(`Fetch failed: ${res.status} ${res.statusText}`);
-    console.error(
-      "If this is a 403/anti-bot response, this page likely needs a headless browser (Playwright/Puppeteer) instead of a plain fetch — see README notes."
-    );
-    process.exit(1);
+  let html;
+  if (localFile) {
+    console.log(`Reading local test file ${localFile} (not hitting the live site) ...`);
+    html = readFileSync(localFile, "utf-8");
+  } else {
+    console.log(`Fetching ${adapter.url} ...`);
+    let res;
+    try {
+      res = await fetch(adapter.url, {
+        headers: {
+          // Real browser-like headers — a bare custom User-Agent with nothing
+          // else gets blocked by Cloudflare's basic bot filtering on some sites.
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          Accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+          "Accept-Language": "en-US,en;q=0.9",
+        },
+      });
+    } catch (err) {
+      console.error(`Network error while fetching: ${err.message}`);
+      process.exitCode = 1;
+      return;
+    }
+    if (!res.ok) {
+      console.error(`Fetch failed: ${res.status} ${res.statusText}`);
+      console.error(
+        "If this is a 403, the site's bot protection (e.g. Cloudflare) is blocking the request. Try again in a few minutes, or if it persists, this page likely needs a headless browser (Playwright/Puppeteer) instead of a plain fetch."
+      );
+      process.exitCode = 1;
+      return;
+    }
+    html = await res.text();
   }
-  const html = await res.text();
   const $ = cheerio.load(html);
   const items = $(adapter.itemSelector);
 
@@ -166,7 +206,8 @@ async function scrape(publisherSlug) {
     console.error(
       "0 matches — the selector is almost certainly wrong for the real page. Inspect the page HTML and update ADAPTERS in this file."
     );
-    process.exit(1);
+    process.exitCode = 1;
+    return;
   }
 
   const seriesRows = loadSeries();
@@ -178,8 +219,17 @@ async function scrape(publisherSlug) {
   let nextId = existingReleases.length + 1;
 
   items.each((_, el) => {
-    const { rawTitle, rawVolume, rawDate } = adapter.parseItem($, el);
-    if (!rawTitle || !rawVolume || !rawDate) return;
+    const parsed = adapter.parseItem($, el);
+    const { rawTitle, rawVolume, rawDate, format } = parsed;
+    if (!rawTitle || !rawDate) return;
+
+    if (adapter.onlyFormats && format && !adapter.onlyFormats.includes(format)) {
+      return; // e.g. skip Light Novel / Audiobook rows on Seven Seas
+    }
+    if (!rawVolume) {
+      console.log(`  Skipping "${rawTitle}" — one-shot with no volume number (not yet supported in schema)`);
+      return;
+    }
 
     const seriesSlug = findSeriesSlug(rawTitle, seriesRows);
     if (!seriesSlug) {
@@ -224,9 +274,12 @@ async function scrape(publisherSlug) {
 }
 
 const publisherArg = process.argv[2];
+const fileFlagIndex = process.argv.indexOf("--file");
+const localFile = fileFlagIndex !== -1 ? process.argv[fileFlagIndex + 1] : null;
+
 if (!publisherArg) {
-  console.error("Usage: node scripts/scrape.mjs <publisher-slug>");
+  console.error("Usage: node scripts/scrape.mjs <publisher-slug> [--file path/to/saved.html]");
   console.error(`Available: ${Object.keys(ADAPTERS).join(", ")}`);
   process.exit(1);
 }
-scrape(publisherArg);
+scrape(publisherArg, localFile);
