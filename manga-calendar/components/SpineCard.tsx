@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Release, Series, amazonAffiliateLink } from "@/lib/data";
 import { PUBLISHERS } from "@/lib/publishers";
 import { formatDate } from "@/lib/dates";
+import FollowButton from "./FollowButton";
 
 export default function SpineCard({
   release,
@@ -11,6 +12,7 @@ export default function SpineCard({
   series: Series;
 }) {
   const pub = PUBLISHERS[series.publisher];
+  const hasCover = Boolean(series.coverImage);
 
   return (
     <div className="group relative flex-shrink-0 w-[132px] sm:w-[148px]">
@@ -19,7 +21,24 @@ export default function SpineCard({
         className="block h-[210px] sm:h-[230px] relative overflow-hidden rounded-[3px] spine-shadow transition-transform duration-200 ease-out group-hover:-translate-y-1.5"
         style={{ backgroundColor: pub.color }}
       >
-        {/* stamp corner: confirmed vs preorder-only */}
+        {hasCover && (
+          <img
+            src={series.coverImage}
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+          />
+        )}
+
+        <div
+          className="absolute inset-0"
+          style={
+            hasCover
+              ? { background: "linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.15) 55%, rgba(0,0,0,0.35) 100%)" }
+              : undefined
+          }
+        />
+
         <div
           className="absolute top-0 left-0 right-0 h-[3px]"
           style={{ backgroundColor: "rgba(255,255,255,0.25)" }}
@@ -31,12 +50,12 @@ export default function SpineCard({
             </span>
           </div>
           <div>
-            <p className="font-display text-white text-lg leading-[1.05] mb-2 [text-wrap:balance]">
+            <p className="font-display text-white text-lg leading-[1.05] mb-2 [text-wrap:balance] [text-shadow:0_1px_3px_rgba(0,0,0,0.5)]">
               {series.title}
             </p>
             <div className="flex items-baseline justify-between">
               <span className="font-data text-white/85 text-xs">Vol.</span>
-              <span className="font-display text-white text-3xl leading-none">
+              <span className="font-display text-white text-3xl leading-none [text-shadow:0_1px_3px_rgba(0,0,0,0.5)]">
                 {release.volume}
               </span>
             </div>
@@ -51,14 +70,11 @@ export default function SpineCard({
         )}
       </Link>
 
+      <FollowButton slug={series.slug} className="absolute top-2 left-2" />
+
       <div className="mt-2 flex items-center justify-between">
         <span className="font-data text-xs text-ink-soft">{formatDate(release.date)}</span>
-        <a
-          href={amazonAffiliateLink(`${series.amazonQuery} ${release.volume}`)}
-          target="_blank"
-          rel="noopener noreferrer sponsored"
-          className="font-data text-[11px] uppercase tracking-wide text-stamp-red hover:text-stamp-red-ink underline underline-offset-2"
-        >
+        <a href={amazonAffiliateLink(`${series.amazonQuery} ${release.volume}`)} target="_blank" rel="noopener noreferrer sponsored" className="font-data text-[11px] uppercase tracking-wide text-stamp-red hover:text-stamp-red-ink underline underline-offset-2">
           Preorder
         </a>
       </div>

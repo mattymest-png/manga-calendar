@@ -1,1 +1,4 @@
-{}
+{
+  "/my-shelf/page": "app/my-shelf/page.js",
+  "/page": "app/page.js"
+}

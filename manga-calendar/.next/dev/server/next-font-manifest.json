@@ -1,5 +1,8 @@
 {
-  "app": {},
+  "app": {
+    "[project]/app/my-shelf/page": [],
+    "[project]/app/page": []
+  },
   "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false

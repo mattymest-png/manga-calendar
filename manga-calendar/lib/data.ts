@@ -8,6 +8,7 @@ export interface Series {
   format: "physical" | "digital" | "both";
   status: "ongoing" | "hiatus";
   amazonQuery: string; // used to build affiliate search links until per-volume ASINs are collected
+  coverImage?: string; // optional cover art URL — falls back to the colored spine card if empty
 }
 
 export interface Release {

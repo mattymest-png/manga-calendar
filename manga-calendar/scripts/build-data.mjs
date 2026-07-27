@@ -28,6 +28,7 @@ const series = seriesRows.map((r) => ({
   format: r.format,
   status: r.status,
   amazonQuery: r.amazonQuery,
+  coverImage: r.coverImage && r.coverImage.trim() ? r.coverImage.trim() : undefined,
 }));
 
 const knownSlugs = new Set(series.map((s) => s.slug));
