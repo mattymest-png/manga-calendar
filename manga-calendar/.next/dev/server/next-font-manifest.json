@@ -1,8 +1,5 @@
 {
-  "app": {
-    "[project]/app/page": [],
-    "[project]/app/series/[slug]/page": []
-  },
+  "app": {},
   "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false
