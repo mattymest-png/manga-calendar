@@ -14,7 +14,12 @@ const dataDir = path.join(__dirname, "..", "data");
 
 function readCsv(file) {
   const raw = readFileSync(path.join(dataDir, file), "utf-8");
-  return parse(raw, { columns: true, skip_empty_lines: true, trim: true });
+  // Normalize line endings: Windows editors/git often save CRLF, but our
+  // own scripts append plain LF — a mix of the two in one file breaks
+  // csv-parse's record-length detection. Stripping \r makes this immune
+  // to whichever style is present, in any combination.
+  const normalized = raw.replace(/\r\n/g, "\n");
+  return parse(normalized, { columns: true, skip_empty_lines: true, trim: true });
 }
 
 const seriesRows = readCsv("series.csv");

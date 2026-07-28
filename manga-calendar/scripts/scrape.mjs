@@ -8,14 +8,21 @@
 //   node scripts/scrape.mjs yen-press
 //   node scripts/scrape.mjs square-enix
 //
-// Two things happen on every run:
+// Three things happen on every run:
 //   1. New releases get appended to data/releases.csv (never duplicates an
 //      existing seriesSlug+volume).
-//   2. For any matched series that doesn't have a coverImage yet in
+//   2. Any scraped title that isn't already tracked gets automatically
+//      added to data/series.csv (genre defaults to "Manga" — edit by hand
+//      later if you want it more specific). This is what makes "every
+//      currently-ongoing series this publisher is releasing" happen
+//      automatically, without hand-curating a list — a title only gets
+//      added when it's actually releasing something, so long-completed
+//      series never clutter the site.
+//   3. For any matched series that doesn't have a coverImage yet in
 //      data/series.csv, this fills it in automatically using that
 //      publisher's own official cover image for that release — no manual
-//      image-hunting needed, and it keeps working for every future series
-//      you add, forever, since this runs on the daily automated schedule.
+//      image-hunting needed, and it keeps working for every future series,
+//      forever, since this runs on the daily automated schedule.
 //
 // Run `npm run build-data` afterward to regenerate the site's data.
 //
@@ -289,7 +296,9 @@ const ADAPTERS = {
 // ---------------------------------------------------------------------------
 function loadSeries() {
   const raw = readFileSync(seriesCsvPath, "utf-8");
-  return parse(raw, { columns: true, skip_empty_lines: true, trim: true });
+  // Normalize line endings — see the matching comment in build-data.mjs.
+  const normalized = raw.replace(/\r\n/g, "\n");
+  return parse(normalized, { columns: true, skip_empty_lines: true, trim: true });
 }
 
 function slugify(title) {
@@ -384,7 +393,7 @@ async function scrape(publisherSlug, localFile) {
   }
 
   const seriesRows = loadSeries();
-  const existingReleasesRaw = readFileSync(releasesCsvPath, "utf-8");
+  const existingReleasesRaw = readFileSync(releasesCsvPath, "utf-8").replace(/\r\n/g, "\n");
   const existingReleases = parse(existingReleasesRaw, {
     columns: true,
     skip_empty_lines: true,
@@ -394,6 +403,7 @@ async function scrape(publisherSlug, localFile) {
 
   const newRows = [];
   const coverUpdates = new Map(); // seriesSlug -> imageUrl, only for series currently missing one
+  const newSeriesAdded = []; // brand-new series.csv rows created this run
   let nextId = existingReleases.length + 1;
 
   for (const parsed of rawItems) {
@@ -410,10 +420,34 @@ async function scrape(publisherSlug, localFile) {
       continue;
     }
 
-    const seriesSlug = findSeriesSlug(rawTitle, seriesRows);
+    let seriesSlug = findSeriesSlug(rawTitle, seriesRows);
     if (!seriesSlug) {
-      console.log(`  Skipping "${rawTitle}" — not in series.csv (add it first if you want to track it)`);
-      continue;
+      // Not tracked yet — auto-add it rather than skipping. This only adds
+      // series that are *currently releasing something* (since that's the
+      // only way a title shows up in a scrape at all), so it naturally
+      // avoids cluttering the site with long-completed series the way a
+      // one-time bulk import of a publisher's full catalog would.
+      const newSlug = slugify(rawTitle);
+      if (seriesRows.some((s) => s.slug === newSlug)) {
+        console.log(
+          `  Skipping "${rawTitle}" — slug "${newSlug}" collides with an existing series but titles didn't match; add it to series.csv by hand to disambiguate`
+        );
+        continue;
+      }
+      const newSeriesRow = {
+        slug: newSlug,
+        title: rawTitle,
+        publisher: publisherSlug,
+        genre: "Manga",
+        format: "both",
+        status: "ongoing",
+        amazonQuery: `${rawTitle} manga volume`,
+        coverImage: coverImage || "",
+      };
+      seriesRows.push(newSeriesRow);
+      newSeriesAdded.push(newSeriesRow);
+      seriesSlug = newSlug;
+      console.log(`  ➕ New series auto-added: "${rawTitle}" (${newSlug})`);
     }
 
     // Cover-image backfill runs for every matched series regardless of
@@ -460,7 +494,7 @@ async function scrape(publisherSlug, localFile) {
     console.log("No new releases found (either nothing new, or nothing matched).");
   }
 
-  if (coverUpdates.size > 0) {
+  if (coverUpdates.size > 0 || newSeriesAdded.length > 0) {
     for (const row of seriesRows) {
       if (coverUpdates.has(row.slug)) {
         row.coverImage = coverUpdates.get(row.slug);
@@ -469,10 +503,15 @@ async function scrape(publisherSlug, localFile) {
     const columns = ["slug", "title", "publisher", "genre", "format", "status", "amazonQuery", "coverImage"];
     const csvOutput = stringify(seriesRows, { header: true, columns });
     writeFileSync(seriesCsvPath, csvOutput);
-    console.log(`🖼️  Added cover images for ${coverUpdates.size} series in data/series.csv`);
+    if (newSeriesAdded.length > 0) {
+      console.log(`➕ Added ${newSeriesAdded.length} new series to data/series.csv`);
+    }
+    if (coverUpdates.size > 0) {
+      console.log(`🖼️  Added cover images for ${coverUpdates.size} series in data/series.csv`);
+    }
   }
 
-  if (newRows.length > 0 || coverUpdates.size > 0) {
+  if (newRows.length > 0 || coverUpdates.size > 0 || newSeriesAdded.length > 0) {
     console.log('Run "npm run build-data" to regenerate the site data.');
   }
 }
