@@ -11,7 +11,7 @@ function startOfWeek(d: Date) {
   return s;
 }
 
-export function bucketFor(dateStr: string, now: Date = new Date()): Bucket {
+export function bucketFor(dateStr: string, now: Date = new Date()): Bucket | null {
   const date = new Date(dateStr + "T00:00:00");
   const weekStart = startOfWeek(now);
   const weekEnd = new Date(weekStart);
@@ -20,7 +20,7 @@ export function bucketFor(dateStr: string, now: Date = new Date()): Bucket {
   const monthEnd = new Date(now.getFullYear(), now.getMonth() + 1, 1);
   const nextMonthEnd = new Date(now.getFullYear(), now.getMonth() + 2, 1);
 
-  if (date < weekStart) return "This Week"; // past-due-but-recent releases surface with current week
+  if (date < weekStart) return null; // genuinely in the past — don't surface on the homepage feed
   if (date < weekEnd) return "This Week";
   if (date < monthEnd) return "This Month";
   if (date < nextMonthEnd) return "Next Month";
@@ -35,7 +35,8 @@ export function groupReleasesByBucket(releases: Release[], now: Date = new Date(
     Later: [],
   };
   for (const r of releases) {
-    buckets[bucketFor(r.date, now)].push(r);
+    const bucket = bucketFor(r.date, now);
+    if (bucket) buckets[bucket].push(r);
   }
   (Object.keys(buckets) as Bucket[]).forEach((k) =>
     buckets[k].sort((a, b) => a.date.localeCompare(b.date))

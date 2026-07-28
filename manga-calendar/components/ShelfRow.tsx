@@ -1,5 +1,6 @@
 import { Release, getSeriesBySlug } from "@/lib/data";
 import SpineCard from "./SpineCard";
+import ScrollableRow from "./ScrollableRow";
 
 export default function ShelfRow({
   label,
@@ -26,13 +27,13 @@ export default function ShelfRow({
             {releases.length} volume{releases.length !== 1 ? "s" : ""}
           </span>
         </div>
-        <div className="flex gap-4 overflow-x-auto pb-3 -mx-1 px-1 [scrollbar-width:thin]">
+        <ScrollableRow>
           {releases.map((r) => {
             const series = getSeriesBySlug(r.seriesSlug);
             if (!series) return null;
             return <SpineCard key={r.id} release={r} series={series} />;
           })}
-        </div>
+        </ScrollableRow>
       </div>
     </section>
   );
