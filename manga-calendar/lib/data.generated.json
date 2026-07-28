@@ -1413,7 +1413,277 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r76",
+      "seriesSlug": "rent-a-girlfriend",
+      "volume": 38,
+      "date": "2026-08-18",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r77",
+      "seriesSlug": "dress-up-darling",
+      "volume": 1,
+      "date": "2020-04-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r78",
+      "seriesSlug": "dress-up-darling",
+      "volume": 2,
+      "date": "2020-08-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r79",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 1,
+      "date": "2020-12-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r80",
+      "seriesSlug": "dress-up-darling",
+      "volume": 3,
+      "date": "2020-12-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r81",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 2,
+      "date": "2021-02-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r82",
+      "seriesSlug": "dress-up-darling",
+      "volume": 4,
+      "date": "2021-06-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r83",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 3,
+      "date": "2021-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r84",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 4,
+      "date": "2022-01-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r85",
+      "seriesSlug": "dress-up-darling",
+      "volume": 5,
+      "date": "2022-05-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r86",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 5,
+      "date": "2022-07-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r87",
+      "seriesSlug": "dress-up-darling",
+      "volume": 6,
+      "date": "2022-08-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r88",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 6,
+      "date": "2022-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r89",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 7,
+      "date": "2022-12-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r90",
+      "seriesSlug": "dress-up-darling",
+      "volume": 7,
+      "date": "2023-01-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r91",
+      "seriesSlug": "dress-up-darling",
+      "volume": 8,
+      "date": "2023-04-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r92",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 8,
+      "date": "2023-07-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r93",
+      "seriesSlug": "dress-up-darling",
+      "volume": 9,
+      "date": "2023-07-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r94",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 9,
+      "date": "2023-08-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r95",
+      "seriesSlug": "dress-up-darling",
+      "volume": 10,
+      "date": "2023-10-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r96",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 10,
+      "date": "2023-11-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r97",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 11,
+      "date": "2024-03-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r98",
+      "seriesSlug": "dress-up-darling",
+      "volume": 11,
+      "date": "2024-04-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r99",
+      "seriesSlug": "dress-up-darling",
+      "volume": 12,
+      "date": "2024-10-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r100",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 13,
+      "date": "2025-03-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r101",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 14,
+      "date": "2025-10-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r102",
+      "seriesSlug": "dress-up-darling",
+      "volume": 14,
+      "date": "2025-10-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r103",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 15,
+      "date": "2026-03-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r104",
+      "seriesSlug": "dress-up-darling",
+      "volume": 15,
+      "date": "2026-04-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r105",
+      "seriesSlug": "apothecary-diaries",
+      "volume": 16,
+      "date": "2026-11-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-07-28T04:03:05.292Z"
+  "generatedAt": "2026-07-28T04:47:58.926Z"
 }
