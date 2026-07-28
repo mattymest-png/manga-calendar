@@ -1,16 +1,32 @@
 ﻿name: Scrape releases and update site data
 
+# Runs automatically on a schedule, and can also be triggered manually from
+# the "Actions" tab on GitHub (useful for testing without waiting for the
+# schedule). Nothing here touches Vercel directly — it just commits any new
+# data to the repo, and your existing Vercel-watches-GitHub setup takes it
+# from there.
 on:
   schedule:
+    # Runs once a day at 13:00 UTC (~9am US Eastern / 6am US Pacific).
+    # Cron syntax: minute hour day month weekday — all in UTC regardless of
+    # your local timezone.
     - cron: "0 13 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {} # adds a manual "Run workflow" button on GitHub
 
+# Gives this workflow permission to push commits back to the repo.
 permissions:
   contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # Your repo has the actual Next.js project nested one folder deep
+    # (manga-calendar/manga-calendar) — same reason Vercel's Root Directory
+    # is set to "manga-calendar". This tells every step below to run from
+    # inside that subfolder instead of the true repo root.
+    defaults:
+      run:
+        working-directory: manga-calendar
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -23,6 +39,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Each scraper runs independently — if one publisher's site changes
+      # its layout and breaks that scraper, the others still run instead of
+      # the whole workflow stopping. Failures are visible in the Actions
+      # logs (and GitHub emails you automatically when a scheduled run
+      # fails), so you'll know to come fix a selector when needed.
       - name: Scrape Seven Seas
         run: node scripts/scrape.mjs seven-seas
         continue-on-error: true
@@ -51,8 +72,12 @@ jobs:
           git config user.name "next-volume-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/releases.csv lib/data.generated.json
+          # Only check releases.csv for real changes — data.generated.json
+          # always differs slightly because it embeds a "generated at"
+          # timestamp, which would otherwise trigger a pointless commit
+          # every single day even when no new releases were found.
           if git diff --cached --quiet -- data/releases.csv; then
-            echo "No new releases found - nothing to commit."
+            echo "No new releases found — nothing to commit."
           else
             git commit -m "Auto-update: scraped releases $(date -u +'%Y-%m-%d')"
             git push
