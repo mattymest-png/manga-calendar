@@ -639,6 +639,10 @@
 @layer components;
 
 @layer utilities {
+  .visible {
+    visibility: visible;
+  }
+
   .absolute {
     position: absolute;
   }
@@ -1111,6 +1115,10 @@
     padding-block: calc(var(--spacing) * 1.5);
   }
 
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
+  }
+
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
@@ -1420,6 +1428,10 @@
 
     .hover\:bg-paper:hover {
       background-color: var(--paper);
+    }
+
+    .hover\:bg-stamp-red-ink:hover {
+      background-color: var(--stamp-red-ink);
     }
 
     .hover\:\!text-stamp-red:hover {

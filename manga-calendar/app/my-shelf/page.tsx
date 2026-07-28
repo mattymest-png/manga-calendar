@@ -7,6 +7,7 @@ import { PUBLISHERS } from "@/lib/publishers";
 import { formatDate } from "@/lib/dates";
 import { getFollowed, FOLLOWED_CHANGED_EVENT } from "@/lib/follows";
 import FollowButton from "@/components/FollowButton";
+import SubscribeButton from "@/components/SubscribeButton";
 
 export default function MyShelfPage() {
   const [followedSlugs, setFollowedSlugs] = useState<string[] | null>(null);
@@ -56,6 +57,8 @@ export default function MyShelfPage() {
         {followedSeries.length} series you&apos;re following — stored locally in this
         browser only.
       </p>
+
+      <SubscribeButton slugs={followedSlugs} />
 
       <div className="grid gap-4 sm:grid-cols-2">
         {followedSeries.map((series) => {

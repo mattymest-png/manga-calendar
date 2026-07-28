@@ -1,4 +1,4 @@
-import { RELEASES, getSeriesBySlug } from "@/lib/data";
+import { RELEASES, SERIES, getSeriesBySlug } from "@/lib/data";
 
 const BASE_URL = "https://example.com"; // update to your real domain
 
@@ -10,11 +10,28 @@ function escapeXml(s: string) {
     .replace(/"/g, "&quot;");
 }
 
-export async function GET() {
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const seriesParam = searchParams.get("series"); // comma-separated slugs, e.g. "one-piece,chainsaw-man"
+
+  let requestedSlugs: string[] | null = null;
+  if (seriesParam) {
+    const knownSlugs = new Set(SERIES.map((s) => s.slug));
+    requestedSlugs = seriesParam
+      .split(",")
+      .map((s) => s.trim())
+      .filter((s) => knownSlugs.has(s));
+  }
+
   const now = new Date();
-  const upcoming = RELEASES.filter((r) => new Date(r.date + "T00:00:00") >= now)
-    .sort((a, b) => a.date.localeCompare(b.date))
-    .slice(0, 50);
+  let upcoming = RELEASES.filter((r) => new Date(r.date + "T00:00:00") >= now);
+
+  if (requestedSlugs) {
+    const slugSet = new Set(requestedSlugs);
+    upcoming = upcoming.filter((r) => slugSet.has(r.seriesSlug));
+  }
+
+  upcoming = upcoming.sort((a, b) => a.date.localeCompare(b.date)).slice(0, 100);
 
   const items = upcoming
     .map((r) => {
@@ -36,12 +53,24 @@ export async function GET() {
     })
     .join("");
 
+  const isPersonalized = requestedSlugs && requestedSlugs.length > 0;
+  const feedTitle = isPersonalized
+    ? "Next Volume — My Shelf Releases"
+    : "Next Volume — Upcoming Manga Releases";
+  const feedDescription = isPersonalized
+    ? "Upcoming volume releases for the series you follow on Next Volume."
+    : "Upcoming English manga volume release dates across Viz, Kodansha USA, Yen Press, Seven Seas, and Square Enix Manga.";
+  const feedLink = isPersonalized
+    ? `${BASE_URL}/feed.xml?series=${encodeURIComponent(requestedSlugs!.join(","))}`
+    : `${BASE_URL}/feed.xml`;
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Next Volume — Upcoming Manga Releases</title>
+    <title>${escapeXml(feedTitle)}</title>
     <link>${BASE_URL}</link>
-    <description>Upcoming English manga volume release dates across Viz, Kodansha USA, Yen Press, Seven Seas, and Square Enix Manga.</description>
+    <atom:link href="${feedLink}" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
+    <description>${escapeXml(feedDescription)}</description>
     <language>en-us</language>
     ${items}
   </channel>

@@ -83,12 +83,7 @@ export default async function SeriesPage({
                 </div>
                 <div className="flex items-center gap-4">
                   <span className="font-data text-sm text-ink-soft">{formatDateFull(r.date)}</span>
-                  
-                    href={amazonAffiliateLink(`${series.amazonQuery} ${r.volume}`)}
-                    target="_blank"
-                    rel="noopener noreferrer sponsored"
-                    className="font-data text-xs uppercase tracking-wide text-stamp-red hover:text-stamp-red-ink underline underline-offset-2"
-                  >
+                  <a href={amazonAffiliateLink(`${series.amazonQuery} ${r.volume}`)} target="_blank" rel="noopener noreferrer sponsored" className="font-data text-xs uppercase tracking-wide text-stamp-red hover:text-stamp-red-ink underline underline-offset-2">
                     Preorder
                   </a>
                 </div>
