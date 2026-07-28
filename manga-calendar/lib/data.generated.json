@@ -11044,7 +11044,16 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r619",
+      "seriesSlug": "blue-lock",
+      "volume": 4,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-07-28T06:03:20.569Z"
+  "generatedAt": "2026-07-28T18:03:04.274Z"
 }
