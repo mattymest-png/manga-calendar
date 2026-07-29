@@ -155,7 +155,8 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Witch Hat Atelier manga volume"
+      "amazonQuery": "Witch Hat Atelier manga volume",
+      "coverImage": "https://production.image.azuki.co/1bc55f7a-2379-4e21-9606-deab269f680c/800.webp"
     },
     {
       "slug": "akane-banashi",
@@ -5480,6 +5481,30 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "The Villainous Noble is Way Too Fond of MILF Heroines manga volume"
+    },
+    {
+      "slug": "senpai-is-an-otokonoko-my-crossdressing-classmate",
+      "title": "Senpai Is an Otokonoko: My Crossdressing Classmate",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Senpai Is an Otokonoko: My Crossdressing Classmate manga volume",
+      "coverImage": "https://production.image.azuki.co/17e3f221-35c2-4dfb-b71c-cd371e84656f/800.webp"
+    },
+    {
+      "slug": "nina-the-starry-bride",
+      "title": "Nina the Starry Bride",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Nina the Starry Bride manga volume",
+      "coverImage": "https://production.image.azuki.co/ed4cdb78-5fa9-43d7-a39d-222c110feb7e/800.webp"
     }
   ],
   "releases": [
@@ -11053,7 +11078,43 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r620",
+      "seriesSlug": "issak",
+      "volume": 7,
+      "date": "2026-08-11",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r621",
+      "seriesSlug": "witch-hat-atelier",
+      "volume": 2,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r622",
+      "seriesSlug": "senpai-is-an-otokonoko-my-crossdressing-classmate",
+      "volume": 7,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r623",
+      "seriesSlug": "nina-the-starry-bride",
+      "volume": 17,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-07-28T18:03:04.274Z"
+  "generatedAt": "2026-07-29T17:51:32.012Z"
 }
