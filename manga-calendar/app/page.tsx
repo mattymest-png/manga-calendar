@@ -1,10 +1,7 @@
 import { RELEASES } from "@/lib/data";
-import { groupReleasesByBucket } from "@/lib/dates";
-import ShelfRow from "@/components/ShelfRow";
+import FilterableReleaseFeed from "@/components/FilterableReleaseFeed";
 
 export default function Home() {
-  const buckets = groupReleasesByBucket(RELEASES);
-
   return (
     <div>
       <div className="border-b hairline">
@@ -13,7 +10,7 @@ export default function Home() {
             Updated daily
           </p>
           <h1 className="font-display text-5xl sm:text-6xl text-ink leading-[0.95] max-w-2xl">
-            Every English manga volume, on one shelf.
+            Collect every volume the moment it drops.
           </h1>
           <p className="font-body text-ink-soft mt-4 max-w-xl">
             Stop checking five publisher sites for one release date. Browse what&apos;s
@@ -23,10 +20,7 @@ export default function Home() {
         </div>
       </div>
 
-      <ShelfRow label="This Week" eyebrow="On shelves now" releases={buckets["This Week"]} />
-      <ShelfRow label="This Month" releases={buckets["This Month"]} />
-      <ShelfRow label="Next Month" releases={buckets["Next Month"]} />
-      <ShelfRow label="Later" releases={buckets["Later"]} />
+      <FilterableReleaseFeed releases={RELEASES} />
     </div>
   );
 }
