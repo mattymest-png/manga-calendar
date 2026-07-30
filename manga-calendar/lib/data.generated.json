@@ -11044,7 +11044,34 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r619",
+      "seriesSlug": "blue-lock",
+      "volume": 4,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r620",
+      "seriesSlug": "issak",
+      "volume": 7,
+      "date": "2026-08-11",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r621",
+      "seriesSlug": "witch-hat-atelier",
+      "volume": 2,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-07-30T06:48:11.427Z"
+  "generatedAt": "2026-07-30T06:55:16.983Z"
 }
