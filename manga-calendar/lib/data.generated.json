@@ -12596,7 +12596,25 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r700",
+      "seriesSlug": "the-world-is-dancing",
+      "volume": 3,
+      "date": "2026-08-04",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r701",
+      "seriesSlug": "mf-ghost",
+      "volume": 4,
+      "date": "2026-08-04",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-08-01T16:32:30.368Z"
+  "generatedAt": "2026-08-03T19:06:45.708Z"
 }
