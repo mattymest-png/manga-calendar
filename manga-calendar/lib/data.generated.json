@@ -5861,6 +5861,66 @@
       "coverImage": "https://dwgkfo5b3odmw.cloudfront.net/manga/thumbs/thumb-193772-WitchWatch_DigitalGN19_C1_Web-3-WY6nfAT1_pWZNt1u9Oe4Iw.jpg"
     },
     {
+      "slug": "the-ayakashi-hunter-s-tainted-bride",
+      "title": "The Ayakashi Hunter's Tainted Bride",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "The Ayakashi Hunter's Tainted Bride manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
+      "slug": "galaxias",
+      "title": "GALAXIAS",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "GALAXIAS manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
+      "slug": "fate-grand-order-epic-of-remnant-pseudo-singularity-iii-the-stage-of-carnage-shimousa-seven-duels-of-swordmasters",
+      "title": "Fate/Grand Order -Epic of Remnant- Pseudo-Singularity III: The Stage of Carnage, Shimousa - Seven Duels of Swordmasters",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Fate/Grand Order -Epic of Remnant- Pseudo-Singularity III: The Stage of Carnage, Shimousa - Seven Duels of Swordmasters manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
+      "slug": "ashita-no-joe-fighting-for-tomorrow",
+      "title": "Ashita no Joe: Fighting for Tomorrow",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Ashita no Joe: Fighting for Tomorrow manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
+      "slug": "go-go-loser-ranger",
+      "title": "Go! Go! Loser Ranger!",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Go! Go! Loser Ranger! manga volume",
+      "coverImage": "https://production.image.azuki.co/fd354309-8721-403d-8bbb-b72231bc7a28/800.webp"
+    },
+    {
       "slug": "senpai-is-an-otokonoko-my-crossdressing-classmate",
       "title": "Senpai Is an Otokonoko: My Crossdressing Classmate",
       "publisher": "kodansha",
@@ -12614,7 +12674,88 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r702",
+      "seriesSlug": "the-ayakashi-hunter-s-tainted-bride",
+      "volume": 7,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r703",
+      "seriesSlug": "i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths",
+      "volume": 10,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r704",
+      "seriesSlug": "welcome-to-demon-school-iruma-kun",
+      "volume": 5,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r705",
+      "seriesSlug": "galaxias",
+      "volume": 3,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r706",
+      "seriesSlug": "fate-grand-order-epic-of-remnant-pseudo-singularity-iii-the-stage-of-carnage-shimousa-seven-duels-of-swordmasters",
+      "volume": 6,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r707",
+      "seriesSlug": "ashita-no-joe-fighting-for-tomorrow",
+      "volume": 6,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r708",
+      "seriesSlug": "go-go-loser-ranger",
+      "volume": 18,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r709",
+      "seriesSlug": "medaka-kuroiwa-is-impervious-to-my-charms",
+      "volume": 16,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r710",
+      "seriesSlug": "wind-breaker",
+      "volume": 23,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-08-03T19:06:45.708Z"
+  "generatedAt": "2026-08-04T19:10:03.072Z"
 }
