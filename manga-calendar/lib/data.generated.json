@@ -12755,7 +12755,16 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r711",
+      "seriesSlug": "how-to-grill-our-love",
+      "volume": 1,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-08-04T19:10:03.072Z"
+  "generatedAt": "2026-08-07T16:11:22.841Z"
 }
