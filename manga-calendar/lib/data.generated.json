@@ -5870,7 +5870,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "The Ayakashi Hunter's Tainted Bride manga volume",
-      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+      "coverImage": "https://production.image.azuki.co/31855468-46c0-47df-a67f-a6ea35d476cf/800.webp"
     },
     {
       "slug": "galaxias",
@@ -5882,7 +5882,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "GALAXIAS manga volume",
-      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+      "coverImage": "https://production.image.azuki.co/cc73dbdf-3a48-4efd-a6e5-45eb2439d734/800.webp"
     },
     {
       "slug": "fate-grand-order-epic-of-remnant-pseudo-singularity-iii-the-stage-of-carnage-shimousa-seven-duels-of-swordmasters",
@@ -5894,7 +5894,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Fate/Grand Order -Epic of Remnant- Pseudo-Singularity III: The Stage of Carnage, Shimousa - Seven Duels of Swordmasters manga volume",
-      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+      "coverImage": "https://production.image.azuki.co/63475455-b04c-4989-8b6e-02cb6c962f27/800.webp"
     },
     {
       "slug": "ashita-no-joe-fighting-for-tomorrow",
@@ -5906,7 +5906,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Ashita no Joe: Fighting for Tomorrow manga volume",
-      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+      "coverImage": "https://production.image.azuki.co/d381e3ef-fbc5-4c6d-89aa-250640191777/800.webp"
     },
     {
       "slug": "go-go-loser-ranger",
@@ -5918,7 +5918,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Go! Go! Loser Ranger! manga volume",
-      "coverImage": "https://production.image.azuki.co/fd354309-8721-403d-8bbb-b72231bc7a28/800.webp"
+      "coverImage": "https://production.image.azuki.co/01324bc4-2627-4d91-982a-8488faa94dd1/800.webp"
     },
     {
       "slug": "senpai-is-an-otokonoko-my-crossdressing-classmate",
@@ -5933,6 +5933,42 @@
       "coverImage": "https://production.image.azuki.co/17e3f221-35c2-4dfb-b71c-cd371e84656f/800.webp"
     },
     {
+      "slug": "the-heroic-legend-of-arslan",
+      "title": "The Heroic Legend of Arslan",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "The Heroic Legend of Arslan manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
+      "slug": "shugo-chara-20th-anniversary-edition",
+      "title": "Shugo Chara! 20th Anniversary Edition",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Shugo Chara! 20th Anniversary Edition manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
+      "slug": "initial-d-omnibus",
+      "title": "Initial D Omnibus",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Initial D Omnibus manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
       "slug": "nina-the-starry-bride",
       "title": "Nina the Starry Bride",
       "publisher": "kodansha",
@@ -5943,6 +5979,18 @@
       "status": "ongoing",
       "amazonQuery": "Nina the Starry Bride manga volume",
       "coverImage": "https://production.image.azuki.co/ed4cdb78-5fa9-43d7-a39d-222c110feb7e/800.webp"
+    },
+    {
+      "slug": "mars-30th-anniversary-edition",
+      "title": "MARS 30th Anniversary Edition",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "MARS 30th Anniversary Edition manga volume",
+      "coverImage": "https://production.image.azuki.co/b90be6b4-6a8a-4a92-83bb-673146d87f66/800.webp"
     },
     {
       "slug": "isekai-tensei-recruited-to-another-world",
@@ -12782,7 +12830,61 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r714",
+      "seriesSlug": "tune-in-to-the-midnight-heart",
+      "volume": 9,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r715",
+      "seriesSlug": "the-heroic-legend-of-arslan",
+      "volume": 23,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r716",
+      "seriesSlug": "shugo-chara-20th-anniversary-edition",
+      "volume": 3,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r717",
+      "seriesSlug": "initial-d-omnibus",
+      "volume": 11,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r718",
+      "seriesSlug": "mars-30th-anniversary-edition",
+      "volume": 2,
+      "date": "2026-09-15",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r719",
+      "seriesSlug": "love-that-s-an-understatement",
+      "volume": 7,
+      "date": "2026-09-15",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-08-10T16:11:21.201Z"
+  "generatedAt": "2026-08-11T16:13:48.540Z"
 }
