@@ -5942,7 +5942,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "The Heroic Legend of Arslan manga volume",
-      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+      "coverImage": "https://production.image.azuki.co/ac41e576-35b4-4dd4-86dd-ca656a247d6b/800.webp"
     },
     {
       "slug": "shugo-chara-20th-anniversary-edition",
@@ -5954,7 +5954,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Shugo Chara! 20th Anniversary Edition manga volume",
-      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+      "coverImage": "https://production.image.azuki.co/6c7d3ee8-46f9-44fe-bcf5-1e692daa6984/800.webp"
     },
     {
       "slug": "initial-d-omnibus",
@@ -5966,7 +5966,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Initial D Omnibus manga volume",
-      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+      "coverImage": "https://production.image.azuki.co/8d4e5738-9c88-4fbd-bd9d-e6b033a4e718/800.webp"
     },
     {
       "slug": "nina-the-starry-bride",
@@ -5979,6 +5979,42 @@
       "status": "ongoing",
       "amazonQuery": "Nina the Starry Bride manga volume",
       "coverImage": "https://production.image.azuki.co/ed4cdb78-5fa9-43d7-a39d-222c110feb7e/800.webp"
+    },
+    {
+      "slug": "say-hello-to-mr-wallaby",
+      "title": "Say Hello to Mr. Wallaby!",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Say Hello to Mr. Wallaby! manga volume",
+      "coverImage": "https://production.image.azuki.co/b902481b-2240-4c17-a1c4-0cb4d6293b12/800.webp"
+    },
+    {
+      "slug": "fairy-tail-100-years-quest",
+      "title": "FAIRY TAIL: 100 Years Quest",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "FAIRY TAIL: 100 Years Quest manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
+    },
+    {
+      "slug": "a-do",
+      "title": "A-DO",
+      "publisher": "kodansha",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "A-DO manga volume",
+      "coverImage": "https://kodansha.us/wp-content/themes/kodansha/assets/images/kodansha--placeholder--1024.svg"
     },
     {
       "slug": "mars-30th-anniversary-edition",
@@ -12902,7 +12938,88 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r722",
+      "seriesSlug": "wind-breaker",
+      "volume": 26,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r723",
+      "seriesSlug": "parasyte-reversi",
+      "volume": 8,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r724",
+      "seriesSlug": "manchuria-opium-squad",
+      "volume": 14,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r725",
+      "seriesSlug": "giant-killing",
+      "volume": 58,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r726",
+      "seriesSlug": "say-hello-to-mr-wallaby",
+      "volume": 1,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r727",
+      "seriesSlug": "lonely-deaths-lie-thick-as-snow",
+      "volume": 4,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r728",
+      "seriesSlug": "fairy-tail-100-years-quest",
+      "volume": 21,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r729",
+      "seriesSlug": "blue-summer-haze",
+      "volume": 2,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r730",
+      "seriesSlug": "a-do",
+      "volume": 10,
+      "date": "2026-09-08",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-08-17T14:05:35.742Z"
+  "generatedAt": "2026-08-18T14:57:03.971Z"
 }
