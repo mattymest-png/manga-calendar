@@ -12710,7 +12710,16 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r804",
+      "seriesSlug": "re-zero-starting-life-in-another-world",
+      "volume": 1,
+      "date": "2026-09-29",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-09-01T17:13:39.530Z"
+  "generatedAt": "2026-09-24T17:47:41.420Z"
 }
