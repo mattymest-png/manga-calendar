@@ -6192,6 +6192,30 @@
       "status": "ongoing",
       "amazonQuery": "The Succubus Meets Her Match manga volume",
       "coverImage": "https://images.yenpress.com/imgs/9798855425758.jpg?w=171&h=257&type=books&s=fc51199390cf9bc2bb72f995d634c69f"
+    },
+    {
+      "slug": "a-man-and-his-cat",
+      "title": "A Man and His Cat",
+      "publisher": "square-enix",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "A Man and His Cat manga volume",
+      "coverImage": "https://fyre.cdn.sewest.net/manga-books/6ab66b87da56b86d46ca217a/cover_img_247x350_amanandhiscat_16_covernotfinal-28422109899087347.jpg"
+    },
+    {
+      "slug": "love-in-the-palm-of-his-hand",
+      "title": "Love in the Palm of His Hand",
+      "publisher": "square-enix",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Love in the Palm of His Hand manga volume",
+      "coverImage": "https://fyre.cdn.sewest.net/manga-books/6ab66be283258e66a650d93b/cover_img_247x350_loveinthepalmofhishand_04_covernotfinal-28420306895673264.jpg"
     }
   ],
   "releases": [
@@ -12719,7 +12743,34 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r805",
+      "seriesSlug": "a-man-and-his-cat",
+      "volume": 16,
+      "date": "2027-01-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r806",
+      "seriesSlug": "love-in-the-palm-of-his-hand",
+      "volume": 4,
+      "date": "2027-01-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r807",
+      "seriesSlug": "exquisite-blood-the-heretic-onmyoji",
+      "volume": 5,
+      "date": "2027-05-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-09-24T17:47:41.420Z"
+  "generatedAt": "2026-09-25T17:49:43.450Z"
 }
