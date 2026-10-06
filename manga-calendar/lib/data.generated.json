@@ -5758,7 +5758,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "After-school Hanako-kun manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855439847.jpg?w=171&h=257&type=books&s=c1ed331ac4e43a4721abd301faad3b59"
+      "coverImage": "https://images.yenpress.com/imgs/9798855439854.jpg?w=171&h=257&type=books&s=27e8dc9c621412dd23052bf3ed415bae"
     },
     {
       "slug": "black-butler",
@@ -5914,7 +5914,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Lycoris Recoil Official Comic Anthology: Reload manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855415025.jpg?w=171&h=257&type=books&s=99ff6c3a42db441a87cb77559005d9c7"
+      "coverImage": "https://images.yenpress.com/imgs/9798855415032.jpg?w=171&h=257&type=books&s=69378799c3ba746894c2d45b93207af3"
     },
     {
       "slug": "mad-miniscape",
@@ -5926,7 +5926,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Mad Miniscape manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855424973.jpg?w=171&h=257&type=books&s=8685aac3d3b77dcf4e73dca5e42a6f12"
+      "coverImage": "https://images.yenpress.com/imgs/9798855424980.jpg?w=171&h=257&type=books&s=36320f84ce9d30c3fd509801ae561bc1"
     },
     {
       "slug": "redeem-only-one-forever",
@@ -5950,7 +5950,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Reincarnation Coliseum manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855424188.jpg?w=171&h=257&type=books&s=8a22fd07f6af86f3f519d18c6636178d"
+      "coverImage": "https://images.yenpress.com/imgs/9798855424195.jpg?w=171&h=257&type=books&s=bb211cf9062074c732d2fe6fb1f0dbad"
     },
     {
       "slug": "sasaki-and-peeps",
@@ -5975,18 +5975,6 @@
       "status": "ongoing",
       "amazonQuery": "Slasher Maidens manga volume",
       "coverImage": "https://images.yenpress.com/imgs/9798855436143.jpg?w=171&h=257&type=books&s=aaefb292f28df0037a7b2e508c3cd1c7"
-    },
-    {
-      "slug": "spring-storm-and-monster",
-      "title": "Spring Storm and Monster",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Spring Storm and Monster manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855423396.jpg?w=171&h=257&type=books&s=c6ccdc9cb7c55ccec0521705c44d6ad5"
     },
     {
       "slug": "the-guy-she-was-interested-in-wasn-t-a-guy-at-all",
@@ -12681,15 +12669,6 @@
       "source": "publisher"
     },
     {
-      "id": "r865",
-      "seriesSlug": "spring-storm-and-monster",
-      "volume": 6,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
       "id": "r866",
       "seriesSlug": "the-guy-she-was-interested-in-wasn-t-a-guy-at-all",
       "volume": 4,
@@ -12733,7 +12712,16 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r871",
+      "seriesSlug": "boy-s-abyss",
+      "volume": 15,
+      "date": "2026-10-27",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-10-01T18:44:17.435Z"
+  "generatedAt": "2026-10-06T18:50:12.946Z"
 }
