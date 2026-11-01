@@ -23,8 +23,7 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Chainsaw Man manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766519.jpg"
+      "amazonQuery": "Chainsaw Man manga volume"
     },
     {
       "slug": "kaiju-no-8",
@@ -60,8 +59,7 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Dandadan manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768414.jpg"
+      "amazonQuery": "Dandadan manga volume"
     },
     {
       "slug": "sakamoto-days",
@@ -85,7 +83,8 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Blue Box manga volume"
+      "amazonQuery": "Blue Box manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768392.jpg"
     },
     {
       "slug": "kagurabachi",
@@ -97,7 +96,8 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Kagurabachi manga volume"
+      "amazonQuery": "Kagurabachi manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768457.jpg"
     },
     {
       "slug": "vinland-saga",
@@ -168,7 +168,8 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Akane-banashi manga volume"
+      "amazonQuery": "Akane-banashi manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766500.jpg"
     },
     {
       "slug": "oshi-no-ko",
@@ -180,7 +181,8 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Oshi no Ko manga volume"
+      "amazonQuery": "Oshi no Ko manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855439687.jpg?w=171&h=257&type=books&v=20261012050001&s=6f64f70cfa3d0620cfd15a190c7c4da5"
     },
     {
       "slug": "made-in-abyss",
@@ -3875,8 +3877,7 @@
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Kemono Jihen manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855435719.jpg?w=171&h=257&type=books&s=e3c0a2e16294a25c6f87e6dc7313f415"
+      "amazonQuery": "Kemono Jihen manga volume"
     },
     {
       "slug": "kaya-chan-isn-t-scary",
@@ -5485,424 +5486,316 @@
       "amazonQuery": "The Villainous Noble is Way Too Fond of MILF Heroines manga volume"
     },
     {
-      "slug": "boruto-two-blue-vortex",
-      "title": "Boruto: Two Blue Vortex",
+      "slug": "colette-decides-to-die",
+      "title": "Colette Decides to Die",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Boruto: Two Blue Vortex manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766683.jpg"
+      "amazonQuery": "Colette Decides to Die manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765504.jpg"
     },
     {
-      "slug": "fushigi-y-gi-byakko-senki",
-      "title": "Fushigi Yûgi: Byakko Senki",
+      "slug": "daydream-darling",
+      "title": "Daydream Darling",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Fushigi Yûgi: Byakko Senki manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766640.jpg"
+      "amazonQuery": "Daydream Darling manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974716902.jpg"
     },
     {
-      "slug": "ichi-the-witch",
-      "title": "Ichi the Witch",
+      "slug": "mission-yozakura-family",
+      "title": "Mission: Yozakura Family",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Ichi the Witch manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768449.jpg"
+      "amazonQuery": "Mission: Yozakura Family manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765458.jpg"
     },
     {
-      "slug": "kill-blue",
-      "title": "Kill Blue",
+      "slug": "prince-freya",
+      "title": "Prince Freya",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Kill Blue manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765393.jpg"
+      "amazonQuery": "Prince Freya manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974769062.jpg"
     },
     {
-      "slug": "marriage-toxin",
-      "title": "Marriage Toxin",
+      "slug": "shiba-inu-rooms",
+      "title": "Shiba Inu Rooms",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Marriage Toxin manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768465.jpg"
+      "amazonQuery": "Shiba Inu Rooms manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766829.jpg"
     },
     {
-      "slug": "shinobi-undercover",
-      "title": "Shinobi Undercover",
+      "slug": "skip-beat",
+      "title": "Skip・Beat!",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Shinobi Undercover manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974716589.jpg"
+      "amazonQuery": "Skip・Beat! manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768988.jpg"
     },
     {
-      "slug": "the-bugle-call-song-of-war",
-      "title": "The Bugle Call: Song of War",
+      "slug": "tamon-s-b-side",
+      "title": "Tamon’s B-Side",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "The Bugle Call: Song of War manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765407.jpg"
+      "amazonQuery": "Tamon’s B-Side manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766667.jpg"
     },
     {
-      "slug": "the-demon-prince-of-momochi-house-succession",
-      "title": "The Demon Prince of Momochi House: Succession",
+      "slug": "the-elusive-samurai",
+      "title": "The Elusive Samurai",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "The Demon Prince of Momochi House: Succession manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766632.jpg"
+      "amazonQuery": "The Elusive Samurai manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768422.jpg"
     },
     {
-      "slug": "galaxic-baseball-league",
-      "title": "GalaXic Baseball League",
+      "slug": "the-seaside-where-dragon-boys-dwell",
+      "title": "The Seaside Where Dragon Boys Dwell",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "GalaXic Baseball League manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974772586.jpg"
+      "amazonQuery": "The Seaside Where Dragon Boys Dwell manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974769240.jpg"
     },
     {
-      "slug": "pok-mon-scarlet-violet",
-      "title": "Pokémon: Scarlet & Violet",
+      "slug": "albus-changes-the-world",
+      "title": "Albus Changes the World",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Pokémon: Scarlet & Violet manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765350.jpg"
+      "amazonQuery": "Albus Changes the World manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974769437.jpg"
     },
     {
-      "slug": "rainbows-after-storms",
-      "title": "Rainbows After Storms",
+      "slug": "kakuriyo-bed-breakfast-for-spirits",
+      "title": "Kakuriyo: Bed & Breakfast for Spirits",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Rainbows After Storms manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765423.jpg"
+      "amazonQuery": "Kakuriyo: Bed & Breakfast for Spirits manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768619.jpg"
     },
     {
-      "slug": "splatoon-3-splatlands",
-      "title": "Splatoon 3: Splatlands",
+      "slug": "mao",
+      "title": "Mao",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Splatoon 3: Splatlands manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766462.jpg"
+      "amazonQuery": "Mao manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768627.jpg"
     },
     {
-      "slug": "magilumiere-magical-girls-inc",
-      "title": "Magilumiere Magical Girls Inc.",
+      "slug": "pok-mon-adventures-red-and-blue-deluxe-edition",
+      "title": "Pokémon Adventures: Red and Blue, Deluxe Edition",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Magilumiere Magical Girls Inc. manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/197476317X.jpg"
+      "amazonQuery": "Pokémon Adventures: Red and Blue, Deluxe Edition manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974769380.png"
     },
     {
-      "slug": "red-river-4-in-1-edition",
-      "title": "Red River (4-in-1 Edition)",
+      "slug": "seraph-of-the-end",
+      "title": "Seraph of the End",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Red River (4-in-1 Edition) manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765474.jpg"
+      "amazonQuery": "Seraph of the End manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768538.jpg"
     },
     {
-      "slug": "ultraman",
-      "title": "Ultraman",
+      "slug": "the-marshal-king",
+      "title": "The Marshal King",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Ultraman manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768678.jpg"
+      "amazonQuery": "The Marshal King manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974716880.jpg"
     },
     {
-      "slug": "undead-unluck",
-      "title": "Undead Unluck",
+      "slug": "after-god",
+      "title": "After God",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Undead Unluck manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765326.jpg"
+      "amazonQuery": "After God manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974768635.jpg"
     },
     {
-      "slug": "witching-hour",
-      "title": "Witching Hour",
+      "slug": "assassin-s-creed-shadows-tales-of-iga",
+      "title": "Assassin’s Creed Shadows: Tales of Iga",
       "publisher": "viz",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Witching Hour manga volume",
-      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/197476642X.jpg"
+      "amazonQuery": "Assassin’s Creed Shadows: Tales of Iga manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974716392.jpg"
     },
     {
-      "slug": "isekai-tensei-recruited-to-another-world",
-      "title": "Isekai Tensei: Recruited to Another World",
+      "slug": "centuria",
+      "title": "Centuria",
+      "publisher": "viz",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Centuria manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765547.jpg"
+    },
+    {
+      "slug": "hunter-x-hunter-3-in-1-edition",
+      "title": "Hunter x Hunter (3-in-1 Edition)",
+      "publisher": "viz",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Hunter x Hunter (3-in-1 Edition) manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974765482.jpg"
+    },
+    {
+      "slug": "maid-to-skate",
+      "title": "Maid to Skate",
+      "publisher": "viz",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Maid to Skate manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974769372.jpg"
+    },
+    {
+      "slug": "the-way-of-the-househusband",
+      "title": "The Way of the Househusband",
+      "publisher": "viz",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "The Way of the Househusband manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974766489.jpg"
+    },
+    {
+      "slug": "vagabond-definitive-edition",
+      "title": "Vagabond Definitive Edition",
+      "publisher": "viz",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Vagabond Definitive Edition manga volume",
+      "coverImage": "https://dw9to29mmj727.cloudfront.net/products/1974763013.png"
+    },
+    {
+      "slug": "the-ichinose-family-s-deadly-sins",
+      "title": "The Ichinose Family’s Deadly Sins",
+      "publisher": "viz",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "The Ichinose Family’s Deadly Sins manga volume",
+      "coverImage": "https://dwgkfo5b3odmw.cloudfront.net/manga/thumbs/thumb-193548-IchinoseFamilysDeadlySins_DigitalGN01_C1_Web-3-IsMV-E2Cr0VSSVgOfePRTg.jpg"
+    },
+    {
+      "slug": "bocchi-the-rock-comic-anthology",
+      "title": "Bocchi the Rock! Comic Anthology",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Isekai Tensei: Recruited to Another World manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9781718360457.jpg?w=171&h=257&type=books&s=b04ce2f538dbe459c2e345b3b7eff522"
+      "amazonQuery": "Bocchi the Rock! Comic Anthology manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855428155.jpg?w=171&h=257&type=books&s=6833e9dd6f9094cd3585ac0a03736ba0"
     },
     {
-      "slug": "isshiki-san-wants-to-know-about-love",
-      "title": "Isshiki-san Wants to Know About Love",
+      "slug": "full-metal-panic-family",
+      "title": "Full Metal Panic! Family",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Isshiki-san Wants to Know About Love manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855430226.jpg?w=171&h=257&type=books&s=1aba8b01ac77c2732b41f16991bb69e5"
+      "amazonQuery": "Full Metal Panic! Family manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855440348.jpg?w=171&h=257&type=books&s=d5cd8cbddf6a94c63f44fa96b11cbe9b"
     },
     {
-      "slug": "tearmoon-empire",
-      "title": "Tearmoon Empire",
+      "slug": "kindergarten-wars",
+      "title": "Kindergarten Wars",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Tearmoon Empire manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9781718338678.jpg?w=171&h=257&type=books&s=4d1d339343c40ee91fff64acb648e775"
-    },
-    {
-      "slug": "a-reincarnated-witch-spells-doom",
-      "title": "A Reincarnated Witch Spells Doom",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "A Reincarnated Witch Spells Doom manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855433913.jpg?w=171&h=257&type=books&s=54836cd0fe98e1ed21f5a184d691fe3b"
-    },
-    {
-      "slug": "a-timid-lady-was-turned-into-an-ugly-cat-but-on-the-verge-of-fainting-is-picked-up-by-the-most-fearsome-military-duke",
-      "title": "A Timid Lady Was Turned into an Ugly Cat, but on the Verge of Fainting Is Picked Up by the Most Fearsome Military Duke",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "A Timid Lady Was Turned into an Ugly Cat, but on the Verge of Fainting Is Picked Up by the Most Fearsome Military Duke manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855423624.jpg?w=171&h=257&type=books&s=3ae197d42e237f2986ff08e4d4546451"
-    },
-    {
-      "slug": "after-school-hanako-kun",
-      "title": "After-school Hanako-kun",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "After-school Hanako-kun manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855439854.jpg?w=171&h=257&type=books&s=27e8dc9c621412dd23052bf3ed415bae"
-    },
-    {
-      "slug": "black-butler",
-      "title": "Black Butler",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Black Butler manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855439946.jpg?w=171&h=257&type=books&s=4908a662a1299b41e12e177f6b0298b5"
-    },
-    {
-      "slug": "cheeky-brat",
-      "title": "Cheeky Brat",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Cheeky Brat manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9781975362133.jpg?w=171&h=257&type=books&s=f4bf641cec326fb30881e4797872edb5"
-    },
-    {
-      "slug": "dara-san-of-reiwa",
-      "title": "Dara-san of Reiwa",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Dara-san of Reiwa manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855425185.jpg?w=171&h=257&type=books&s=c8e9bcaef22d9d74261a692c4a514259"
-    },
-    {
-      "slug": "defying-expectations-with-gravity-magic-to-be-unparalleled",
-      "title": "Defying Expectations with Gravity Magic to Be Unparalleled",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Defying Expectations with Gravity Magic to Be Unparalleled manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855420920.jpg?w=171&h=257&type=books&s=ede4299bcdf3fc2fbbb1ef52d02807c0"
-    },
-    {
-      "slug": "fate-rewinder-all-great-achievements-require-time",
-      "title": "Fate Rewinder: All Great Achievements Require Time",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Fate Rewinder: All Great Achievements Require Time manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855440409.jpg?w=171&h=257&type=books&s=a63aa6681437228a0c2f25acf388dc91"
-    },
-    {
-      "slug": "fate-prototype-fragments-of-sky-silver",
-      "title": "Fate/Prototype: Fragments of Sky Silver",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Fate/Prototype: Fragments of Sky Silver manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855437126.jpg?w=171&h=257&type=books&v=20260705000004&s=f50fd54dc29d981b86256ca79907d8be"
-    },
-    {
-      "slug": "gals-can-t-be-kind-to-otaku",
-      "title": "Gals Can’t Be Kind to Otaku?!",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Gals Can’t Be Kind to Otaku?! manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855422917.jpg?w=171&h=257&type=books&s=5e6d0308a7dd5a7aec7a317c38fa7b0d"
-    },
-    {
-      "slug": "game-of-familia",
-      "title": "Game of Familia",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Game of Familia manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855403855.jpg?w=171&h=257&type=books&s=ed3d49b3d9964f0964a012d0ccc05599"
-    },
-    {
-      "slug": "honey-lemon-soda",
-      "title": "Honey Lemon Soda",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Honey Lemon Soda manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9781975363536.jpg?w=171&h=257&type=books&s=7efc53e04499a0bcf675f6b53c0d6a62"
-    },
-    {
-      "slug": "how-to-keep-a-human",
-      "title": "How to Keep a Human",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "How to Keep a Human manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855419795.jpg?w=171&h=257&type=books&v=20260705000005&s=f9472b92093e0e1854ea4f41d81e835f"
-    },
-    {
-      "slug": "kunon-the-sorcerer-can-see",
-      "title": "Kunon the Sorcerer Can See",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Kunon the Sorcerer Can See manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855414783.jpg?w=171&h=257&type=books&s=854d5b05c9c03cebf8e84a4decce41b0"
-    },
-    {
-      "slug": "love-bullet",
-      "title": "Love Bullet",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "Love Bullet manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855441499.jpg?w=171&h=257&type=books&s=51410e53b0c8e716fd14d527b9114308"
+      "amazonQuery": "Kindergarten Wars manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855409161.jpg?w=171&h=257&type=books&s=158df828864eb4aef0b2a20d2627b18c"
     },
     {
       "slug": "lycoris-recoil-official-comic-anthology-reload",
@@ -5914,7 +5807,43 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Lycoris Recoil Official Comic Anthology: Reload manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855415032.jpg?w=171&h=257&type=books&s=69378799c3ba746894c2d45b93207af3"
+      "coverImage": "https://images.yenpress.com/imgs/9798855415025.jpg?w=171&h=257&type=books&s=99ff6c3a42db441a87cb77559005d9c7"
+    },
+    {
+      "slug": "two-a-m-at-the-dining-table",
+      "title": "Two A.M. at the Dining Table",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Two A.M. at the Dining Table manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855430615.jpg?w=171&h=257&type=books&s=0b9d159e1220e2d165913cce3837cb91"
+    },
+    {
+      "slug": "ascendance-of-a-bookworm-manga-part-2",
+      "title": "Ascendance of a Bookworm (Manga) Part 2",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Ascendance of a Bookworm (Manga) Part 2 manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9781718372665.jpg?w=171&h=257&type=books&s=91b4362ea7e68321f0a9772d15decb0f"
+    },
+    {
+      "slug": "from-villainess-to-healer-i-know-the-cheat-to-change-my-fate",
+      "title": "From Villainess to Healer: I Know the Cheat to Change My Fate",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "From Villainess to Healer: I Know the Cheat to Change My Fate manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9781718333628.jpg?w=171&h=257&type=books&s=24b19b48489a9530e252ce41db4f52b0"
     },
     {
       "slug": "mad-miniscape",
@@ -5926,55 +5855,259 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Mad Miniscape manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855424980.jpg?w=171&h=257&type=books&s=36320f84ce9d30c3fd509801ae561bc1"
+      "coverImage": "https://images.yenpress.com/imgs/9798855424973.jpg?w=171&h=257&type=books&s=8685aac3d3b77dcf4e73dca5e42a6f12"
     },
     {
-      "slug": "redeem-only-one-forever",
-      "title": "Redeem: Only One Forever",
+      "slug": "my-oh-my-atami-kun",
+      "title": "My Oh My, Atami-kun",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Redeem: Only One Forever manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855423457.jpg?w=171&h=257&type=books&s=6c3fec1d05a852395376b85c9fa850bd"
+      "amazonQuery": "My Oh My, Atami-kun manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855435276.jpg?w=171&h=257&type=books&s=4e3dd2387b123f560b300b85131a9bd9"
     },
     {
-      "slug": "reincarnation-coliseum",
-      "title": "Reincarnation Coliseum",
+      "slug": "spring-storm-and-monster",
+      "title": "Spring Storm and Monster",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Reincarnation Coliseum manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855424195.jpg?w=171&h=257&type=books&s=bb211cf9062074c732d2fe6fb1f0dbad"
+      "amazonQuery": "Spring Storm and Monster manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855423396.jpg?w=171&h=257&type=books&s=c6ccdc9cb7c55ccec0521705c44d6ad5"
     },
     {
-      "slug": "sasaki-and-peeps",
-      "title": "Sasaki and Peeps",
+      "slug": "battlefront-of-the-great-powers",
+      "title": "Battlefront of the Great Powers",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Sasaki and Peeps manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855433722.jpg?w=171&h=257&type=books&s=89234b2bbb67346dfd35e8a5243372ac"
+      "amazonQuery": "Battlefront of the Great Powers manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855416510.jpg?w=171&h=257&type=books&s=1cb7de7496a51f9b29cc71646deed273"
     },
     {
-      "slug": "slasher-maidens",
-      "title": "Slasher Maidens",
+      "slug": "clevatess-the-king-of-dark-beasts-the-baby-and-the-undead-hero",
+      "title": "Clevatess: The King of Dark Beasts, the Baby, and the Undead Hero",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "Slasher Maidens manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855436143.jpg?w=171&h=257&type=books&s=aaefb292f28df0037a7b2e508c3cd1c7"
+      "amazonQuery": "Clevatess: The King of Dark Beasts, the Baby, and the Undead Hero manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855442861.jpg?w=171&h=257&type=books&v=20260810050002&s=00bc3e1ce0b0dd30556ea0bf7143d884"
+    },
+    {
+      "slug": "contract-sisters",
+      "title": "Contract Sisters",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Contract Sisters manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855433784.jpg?w=171&h=257&type=books&v=20260906000011&s=2fe395af6135b6845d68f4439a07c021"
+    },
+    {
+      "slug": "egg-i-m-your-child",
+      "title": "egg: I’m Your Child",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "egg: I’m Your Child manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855431223.jpg?w=171&h=257&type=books&s=4ed01d091358486c1f2cf743076a9648"
+    },
+    {
+      "slug": "he-was-my-brother",
+      "title": "He Was My Brother",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "He Was My Brother manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855442915.jpg?w=171&h=257&type=books&s=83d433b998ff702c9581c41cbb394736"
+    },
+    {
+      "slug": "honey-trap-shared-house",
+      "title": "Honey Trap Shared House",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Honey Trap Shared House manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855438550.jpg?w=171&h=257&type=books&s=aa501d93164ea01a5bd7fa706e9320be"
+    },
+    {
+      "slug": "is-the-order-a-rabbit",
+      "title": "Is the Order a Rabbit?",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Is the Order a Rabbit? manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855405941.jpg?w=171&h=257&type=books&v=20260906000008&s=583482c2f83ac8af938858c13a19363f"
+    },
+    {
+      "slug": "isekai-samurai",
+      "title": "Isekai Samurai",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Isekai Samurai manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855425260.jpg?w=171&h=257&type=books&v=20260906000010&s=dd24c51320f4a0bee592c6f4a4bb3a2d"
+    },
+    {
+      "slug": "izumi-and-the-dragon-encyclopedia",
+      "title": "Izumi and the Dragon Encyclopedia",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Izumi and the Dragon Encyclopedia manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855436426.jpg?w=171&h=257&type=books&s=4c25fa4f58cf61a9bc2bdababe4c39bc"
+    },
+    {
+      "slug": "kakegurui-compulsive-gambler",
+      "title": "Kakegurui - Compulsive Gambler -",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Kakegurui - Compulsive Gambler - manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855440201.jpg?w=171&h=257&type=books&v=20260906000009&s=4c2b44f2be8b5bd584edbe716613931b"
+    },
+    {
+      "slug": "laid-back-camp",
+      "title": "Laid-Back Camp",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Laid-Back Camp manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855440386.jpg?w=171&h=257&type=books&s=0f977879857750b15449318b7b05becb"
+    },
+    {
+      "slug": "let-this-grieving-soul-retire",
+      "title": "Let This Grieving Soul Retire",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Let This Grieving Soul Retire manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855433951.jpg?w=171&h=257&type=books&v=20260706050002&s=24680fd0a61af4563110c616055f5f1b"
+    },
+    {
+      "slug": "love-at-the-city-s-edge-on-a-moonlit-night",
+      "title": "Love at the City's Edge on a Moonlit Night",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Love at the City's Edge on a Moonlit Night manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855425338.jpg?w=171&h=257&type=books&s=da82cc527ee43a17639b625ac4837649"
+    },
+    {
+      "slug": "magical-midlifer",
+      "title": "Magical Midlifer",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Magical Midlifer manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855408096.jpg?w=171&h=257&type=books&s=15074f458f2651a04540f209bec21797"
+    },
+    {
+      "slug": "moscow-2160",
+      "title": "Moscow 2160",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Moscow 2160 manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855432145.jpg?w=171&h=257&type=books&s=c365137649c58aeb40426f865fa84756"
+    },
+    {
+      "slug": "my-girlfriend-is-a-colossal-cutie",
+      "title": "My Girlfriend Is a Colossal Cutie",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "My Girlfriend Is a Colossal Cutie manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855432725.jpg?w=171&h=257&type=books&s=c63e1c36f5a9a5fb3f714f0dae16d3b3"
+    },
+    {
+      "slug": "pink-habanero",
+      "title": "Pink & Habanero",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Pink & Habanero manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9781975397524.jpg?w=171&h=257&type=books&s=f85f1d408078150d814a961c38db8c02"
+    },
+    {
+      "slug": "shadows-house",
+      "title": "Shadows House",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Shadows House manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855403510.jpg?w=171&h=257&type=books&s=6c46c832ef4b49d5df16878388094efa"
+    },
+    {
+      "slug": "sword-art-online-ordinal-scale",
+      "title": "Sword Art Online Ordinal Scale",
+      "publisher": "yen-press",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "Sword Art Online Ordinal Scale manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855411843.jpg?w=171&h=257&type=books&s=e8a1e9d1026a846ccc048ceb5b89ecbc"
     },
     {
       "slug": "the-guy-she-was-interested-in-wasn-t-a-guy-at-all",
@@ -5986,55 +6119,43 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "The Guy She Was Interested In Wasn't a Guy at All manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855444209.jpg?w=171&h=257&type=books&s=6cf13fae52d05875146f7d5385033659"
+      "coverImage": "https://images.yenpress.com/imgs/9798855444629.jpg?w=171&h=257&type=books&v=20260616090001&s=4f1875e8e5297a47147e9a288625fb37"
     },
     {
-      "slug": "the-record-of-fantastical-nomenclature",
-      "title": "The Record of Fantastical Nomenclature",
+      "slug": "tougen-anki-legend-of-the-cursed-blood",
+      "title": "Tougen Anki: Legend of the Cursed Blood",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "The Record of Fantastical Nomenclature manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855423013.jpg?w=171&h=257&type=books&s=38669c83dfd1f4399f500103277efdbb"
+      "amazonQuery": "Tougen Anki: Legend of the Cursed Blood manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855400014.jpg?w=171&h=257&type=books&s=1b3eee69c9c53c682718c82957066977"
     },
     {
-      "slug": "the-summer-hikaru-died",
-      "title": "The Summer Hikaru Died",
+      "slug": "tsubaki-chou-lonely-planet",
+      "title": "Tsubaki-chou Lonely Planet",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "The Summer Hikaru Died manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855437799.jpg?w=171&h=257&type=books&s=7550e490b1a999c6bd54ae010e26b790"
+      "amazonQuery": "Tsubaki-chou Lonely Planet manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9781975346447.jpg?w=171&h=257&type=books&s=1884c76494d39132af2c351e7a4f0477"
     },
     {
-      "slug": "the-villainess-stans-the-heroes-playing-the-antagonist-to-support-her-faves",
-      "title": "The Villainess Stans the Heroes: Playing the Antagonist to Support Her Faves!",
+      "slug": "witch-and-hound",
+      "title": "Witch and Hound",
       "publisher": "yen-press",
       "genre": [
         "Manga"
       ],
       "format": "both",
       "status": "ongoing",
-      "amazonQuery": "The Villainess Stans the Heroes: Playing the Antagonist to Support Her Faves! manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855436167.jpg?w=171&h=257&type=books&s=87b15e08c6fb3395862047608ad9419f"
-    },
-    {
-      "slug": "you-can-t-escape-from-mizudako-chan",
-      "title": "You Can't Escape from Mizudako-chan!",
-      "publisher": "yen-press",
-      "genre": [
-        "Manga"
-      ],
-      "format": "both",
-      "status": "ongoing",
-      "amazonQuery": "You Can't Escape from Mizudako-chan! manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855417531.jpg?w=171&h=257&type=books&s=23914a2d4c735b8e3079d2b3789ea02c"
+      "amazonQuery": "Witch and Hound manga volume",
+      "coverImage": "https://images.yenpress.com/imgs/9798855434927.jpg?w=171&h=257&type=books&s=c5c547f371111c3c6f294a0d8b464e17"
     },
     {
       "slug": "a-man-and-his-cat",
@@ -11661,9 +11782,18 @@
       "source": "publisher"
     },
     {
-      "id": "r630",
-      "seriesSlug": "ichi-the-witch",
-      "volume": 4,
+      "id": "r626",
+      "seriesSlug": "colette-decides-to-die",
+      "volume": 8,
+      "date": "2026-08-04",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r628",
+      "seriesSlug": "daydream-darling",
+      "volume": 1,
       "date": "2026-08-04",
       "format": "physical",
       "confirmed": true,
@@ -11688,18 +11818,18 @@
       "source": "publisher"
     },
     {
-      "id": "r634",
-      "seriesSlug": "shinobi-undercover",
-      "volume": 2,
+      "id": "r636",
+      "seriesSlug": "the-elusive-samurai",
+      "volume": 21,
       "date": "2026-08-04",
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
     },
     {
-      "id": "r635",
-      "seriesSlug": "the-bugle-call-song-of-war",
-      "volume": 8,
+      "id": "r637",
+      "seriesSlug": "the-marshal-king",
+      "volume": 1,
       "date": "2026-08-04",
       "format": "physical",
       "confirmed": true,
@@ -11724,28 +11854,28 @@
       "source": "publisher"
     },
     {
-      "id": "r641",
-      "seriesSlug": "kill-blue",
-      "volume": 8,
+      "id": "r642",
+      "seriesSlug": "mao",
+      "volume": 25,
       "date": "2026-08-11",
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
     },
     {
-      "id": "r643",
-      "seriesSlug": "marriage-toxin",
-      "volume": 14,
-      "date": "2026-08-11",
+      "id": "r647",
+      "seriesSlug": "centuria",
+      "volume": 3,
+      "date": "2026-08-18",
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
     },
     {
-      "id": "r645",
-      "seriesSlug": "rainbows-after-storms",
-      "volume": 11,
-      "date": "2026-08-11",
+      "id": "r649",
+      "seriesSlug": "hunter-x-hunter-3-in-1-edition",
+      "volume": 7,
+      "date": "2026-08-18",
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
@@ -11760,18 +11890,18 @@
       "source": "publisher"
     },
     {
-      "id": "r651",
-      "seriesSlug": "magilumiere-magical-girls-inc",
-      "volume": 14,
+      "id": "r652",
+      "seriesSlug": "mission-yozakura-family",
+      "volume": 24,
       "date": "2026-08-18",
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
     },
     {
-      "id": "r657",
-      "seriesSlug": "undead-unluck",
-      "volume": 26,
+      "id": "r658",
+      "seriesSlug": "vagabond-definitive-edition",
+      "volume": 6,
       "date": "2026-08-18",
       "format": "physical",
       "confirmed": true,
@@ -11787,18 +11917,18 @@
       "source": "publisher"
     },
     {
-      "id": "r662",
-      "seriesSlug": "isekai-tensei-recruited-to-another-world",
-      "volume": 7,
-      "date": "2026-08-11",
+      "id": "r668",
+      "seriesSlug": "bungo-stray-dogs",
+      "volume": 6,
+      "date": "2026-08-25",
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
     },
     {
-      "id": "r668",
-      "seriesSlug": "bungo-stray-dogs",
-      "volume": 6,
+      "id": "r669",
+      "seriesSlug": "clevatess-the-king-of-dark-beasts-the-baby-and-the-undead-hero",
+      "volume": 1,
       "date": "2026-08-25",
       "format": "physical",
       "confirmed": true,
@@ -12021,6 +12151,15 @@
       "source": "publisher"
     },
     {
+      "id": "r739",
+      "seriesSlug": "shiba-inu-rooms",
+      "volume": 1,
+      "date": "2026-09-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
       "id": "r740",
       "seriesSlug": "spy-x-family",
       "volume": 16,
@@ -12156,81 +12295,9 @@
       "source": "publisher"
     },
     {
-      "id": "r808",
-      "seriesSlug": "boruto-two-blue-vortex",
-      "volume": 6,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r809",
-      "seriesSlug": "fushigi-y-gi-byakko-senki",
-      "volume": 5,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r810",
-      "seriesSlug": "ichi-the-witch",
-      "volume": 5,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r811",
-      "seriesSlug": "kill-blue",
-      "volume": 9,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r812",
-      "seriesSlug": "marriage-toxin",
-      "volume": 15,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
       "id": "r813",
       "seriesSlug": "phantom-busters",
       "volume": 5,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r814",
-      "seriesSlug": "shinobi-undercover",
-      "volume": 3,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r815",
-      "seriesSlug": "the-bugle-call-song-of-war",
-      "volume": 9,
-      "date": "2026-10-06",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r816",
-      "seriesSlug": "the-demon-prince-of-momochi-house-succession",
-      "volume": 3,
       "date": "2026-10-06",
       "format": "physical",
       "confirmed": true,
@@ -12273,42 +12340,6 @@
       "source": "publisher"
     },
     {
-      "id": "r821",
-      "seriesSlug": "galaxic-baseball-league",
-      "volume": 1,
-      "date": "2026-10-13",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r822",
-      "seriesSlug": "pok-mon-scarlet-violet",
-      "volume": 6,
-      "date": "2026-10-13",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r823",
-      "seriesSlug": "rainbows-after-storms",
-      "volume": 12,
-      "date": "2026-10-13",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r824",
-      "seriesSlug": "splatoon-3-splatlands",
-      "volume": 7,
-      "date": "2026-10-13",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
       "id": "r825",
       "seriesSlug": "the-mortifying-ordeal-of-being-seen",
       "volume": 3,
@@ -12336,27 +12367,9 @@
       "source": "publisher"
     },
     {
-      "id": "r828",
-      "seriesSlug": "magilumiere-magical-girls-inc",
-      "volume": 15,
-      "date": "2026-10-20",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
       "id": "r829",
       "seriesSlug": "record-of-ragnarok",
       "volume": 20,
-      "date": "2026-10-20",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r830",
-      "seriesSlug": "red-river-4-in-1-edition",
-      "volume": 9,
       "date": "2026-10-20",
       "format": "physical",
       "confirmed": true,
@@ -12372,64 +12385,10 @@
       "source": "publisher"
     },
     {
-      "id": "r832",
-      "seriesSlug": "ultraman",
-      "volume": 22,
-      "date": "2026-10-20",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r833",
-      "seriesSlug": "undead-unluck",
-      "volume": 27,
-      "date": "2026-10-20",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r834",
-      "seriesSlug": "witching-hour",
-      "volume": 1,
-      "date": "2026-10-20",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
       "id": "r835",
       "seriesSlug": "yona-of-the-dawn",
       "volume": 1,
       "date": "2026-10-20",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r836",
-      "seriesSlug": "isekai-tensei-recruited-to-another-world",
-      "volume": 8,
-      "date": "2026-10-13",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r837",
-      "seriesSlug": "isshiki-san-wants-to-know-about-love",
-      "volume": 1,
-      "date": "2026-10-13",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r838",
-      "seriesSlug": "tearmoon-empire",
-      "volume": 9,
-      "date": "2026-10-13",
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
@@ -12444,45 +12403,9 @@
       "source": "publisher"
     },
     {
-      "id": "r840",
-      "seriesSlug": "a-reincarnated-witch-spells-doom",
-      "volume": 8,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r841",
-      "seriesSlug": "a-timid-lady-was-turned-into-an-ugly-cat-but-on-the-verge-of-fainting-is-picked-up-by-the-most-fearsome-military-duke",
-      "volume": 2,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
       "id": "r842",
       "seriesSlug": "a-witch-s-life-in-mongol",
       "volume": 4,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r843",
-      "seriesSlug": "after-school-hanako-kun",
-      "volume": 2,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r844",
-      "seriesSlug": "black-butler",
-      "volume": 35,
       "date": "2026-10-27",
       "format": "physical",
       "confirmed": true,
@@ -12501,105 +12424,6 @@
       "id": "r846",
       "seriesSlug": "chained-soldier",
       "volume": 15,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r847",
-      "seriesSlug": "cheeky-brat",
-      "volume": 17,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r848",
-      "seriesSlug": "dara-san-of-reiwa",
-      "volume": 4,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r849",
-      "seriesSlug": "defying-expectations-with-gravity-magic-to-be-unparalleled",
-      "volume": 1,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r850",
-      "seriesSlug": "fate-rewinder-all-great-achievements-require-time",
-      "volume": 1,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r851",
-      "seriesSlug": "fate-prototype-fragments-of-sky-silver",
-      "volume": 1,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r852",
-      "seriesSlug": "gals-can-t-be-kind-to-otaku",
-      "volume": 3,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r853",
-      "seriesSlug": "game-of-familia",
-      "volume": 9,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r854",
-      "seriesSlug": "honey-lemon-soda",
-      "volume": 12,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r855",
-      "seriesSlug": "how-to-keep-a-human",
-      "volume": 1,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r856",
-      "seriesSlug": "kunon-the-sorcerer-can-see",
-      "volume": 3,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r857",
-      "seriesSlug": "love-bullet",
-      "volume": 2,
       "date": "2026-10-27",
       "format": "physical",
       "confirmed": true,
@@ -12633,36 +12457,9 @@
       "source": "publisher"
     },
     {
-      "id": "r861",
-      "seriesSlug": "redeem-only-one-forever",
-      "volume": 2,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r862",
-      "seriesSlug": "reincarnation-coliseum",
-      "volume": 4,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r863",
-      "seriesSlug": "sasaki-and-peeps",
-      "volume": 5,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r864",
-      "seriesSlug": "slasher-maidens",
-      "volume": 14,
+      "id": "r865",
+      "seriesSlug": "spring-storm-and-monster",
+      "volume": 6,
       "date": "2026-10-27",
       "format": "physical",
       "confirmed": true,
@@ -12672,42 +12469,6 @@
       "id": "r866",
       "seriesSlug": "the-guy-she-was-interested-in-wasn-t-a-guy-at-all",
       "volume": 4,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r867",
-      "seriesSlug": "the-record-of-fantastical-nomenclature",
-      "volume": 1,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r868",
-      "seriesSlug": "the-summer-hikaru-died",
-      "volume": 8,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r869",
-      "seriesSlug": "the-villainess-stans-the-heroes-playing-the-antagonist-to-support-her-faves",
-      "volume": 6,
-      "date": "2026-10-27",
-      "format": "physical",
-      "confirmed": true,
-      "source": "publisher"
-    },
-    {
-      "id": "r870",
-      "seriesSlug": "you-can-t-escape-from-mizudako-chan",
-      "volume": 2,
       "date": "2026-10-27",
       "format": "physical",
       "confirmed": true,
@@ -12730,7 +12491,691 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r873",
+      "seriesSlug": "blue-box",
+      "volume": 22,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r874",
+      "seriesSlug": "colette-decides-to-die",
+      "volume": 9,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r875",
+      "seriesSlug": "daydream-darling",
+      "volume": 2,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r876",
+      "seriesSlug": "kagurabachi",
+      "volume": 9,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r877",
+      "seriesSlug": "mission-yozakura-family",
+      "volume": 25,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r878",
+      "seriesSlug": "nue-s-exorcist",
+      "volume": 9,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r879",
+      "seriesSlug": "prince-freya",
+      "volume": 14,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r880",
+      "seriesSlug": "shiba-inu-rooms",
+      "volume": 2,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r881",
+      "seriesSlug": "skip-beat",
+      "volume": 52,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r882",
+      "seriesSlug": "super-psychic-policeman-chojo",
+      "volume": 6,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r883",
+      "seriesSlug": "tamon-s-b-side",
+      "volume": 12,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r884",
+      "seriesSlug": "the-elusive-samurai",
+      "volume": 22,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r885",
+      "seriesSlug": "the-seaside-where-dragon-boys-dwell",
+      "volume": 1,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r886",
+      "seriesSlug": "ultimate-exorcist-kiyoshi",
+      "volume": 4,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r887",
+      "seriesSlug": "akane-banashi",
+      "volume": 18,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r888",
+      "seriesSlug": "akira-failing-in-love",
+      "volume": 5,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r889",
+      "seriesSlug": "albus-changes-the-world",
+      "volume": 1,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r890",
+      "seriesSlug": "hima-ten",
+      "volume": 3,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r891",
+      "seriesSlug": "kakuriyo-bed-breakfast-for-spirits",
+      "volume": 12,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r892",
+      "seriesSlug": "mao",
+      "volume": 26,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r893",
+      "seriesSlug": "one-piece",
+      "volume": 113,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r894",
+      "seriesSlug": "pok-mon-adventures-red-and-blue-deluxe-edition",
+      "volume": 1,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r895",
+      "seriesSlug": "seraph-of-the-end",
+      "volume": 35,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r896",
+      "seriesSlug": "the-marshal-king",
+      "volume": 2,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r897",
+      "seriesSlug": "after-god",
+      "volume": 10,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r898",
+      "seriesSlug": "assassin-s-creed-shadows-tales-of-iga",
+      "volume": 2,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r899",
+      "seriesSlug": "bug-ego",
+      "volume": 3,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r900",
+      "seriesSlug": "centuria",
+      "volume": 4,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r901",
+      "seriesSlug": "hunter-x-hunter-3-in-1-edition",
+      "volume": 8,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r902",
+      "seriesSlug": "maid-to-skate",
+      "volume": 2,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r903",
+      "seriesSlug": "taika-s-reason",
+      "volume": 3,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r904",
+      "seriesSlug": "the-way-of-the-househusband",
+      "volume": 16,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r905",
+      "seriesSlug": "vagabond-definitive-edition",
+      "volume": 7,
+      "date": "2026-11-17",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r906",
+      "seriesSlug": "jojo-s-bizarre-adventure-part-7-steel-ball-run",
+      "volume": 10,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r907",
+      "seriesSlug": "the-ichinose-family-s-deadly-sins",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r908",
+      "seriesSlug": "the-ichinose-family-s-deadly-sins",
+      "volume": 2,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r909",
+      "seriesSlug": "the-ichinose-family-s-deadly-sins",
+      "volume": 3,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r910",
+      "seriesSlug": "the-ichinose-family-s-deadly-sins",
+      "volume": 4,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r911",
+      "seriesSlug": "the-ichinose-family-s-deadly-sins",
+      "volume": 5,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r912",
+      "seriesSlug": "the-ichinose-family-s-deadly-sins",
+      "volume": 6,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r913",
+      "seriesSlug": "bocchi-the-rock-comic-anthology",
+      "volume": 4,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r914",
+      "seriesSlug": "full-metal-panic-family",
+      "volume": 1,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r915",
+      "seriesSlug": "kindergarten-wars",
+      "volume": 5,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r916",
+      "seriesSlug": "two-a-m-at-the-dining-table",
+      "volume": 1,
+      "date": "2026-11-03",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r917",
+      "seriesSlug": "ascendance-of-a-bookworm-manga-part-2",
+      "volume": 10,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r918",
+      "seriesSlug": "campfire-cooking-in-another-world-with-my-absurd-skill",
+      "volume": 8,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r919",
+      "seriesSlug": "from-villainess-to-healer-i-know-the-cheat-to-change-my-fate",
+      "volume": 1,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r920",
+      "seriesSlug": "my-oh-my-atami-kun",
+      "volume": 4,
+      "date": "2026-11-10",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r921",
+      "seriesSlug": "battlefront-of-the-great-powers",
+      "volume": 2,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r922",
+      "seriesSlug": "clevatess-the-king-of-dark-beasts-the-baby-and-the-undead-hero",
+      "volume": 2,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r923",
+      "seriesSlug": "contract-sisters",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r924",
+      "seriesSlug": "egg-i-m-your-child",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r925",
+      "seriesSlug": "he-was-my-brother",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r926",
+      "seriesSlug": "honey-trap-shared-house",
+      "volume": 7,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r927",
+      "seriesSlug": "is-the-order-a-rabbit",
+      "volume": 6,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r928",
+      "seriesSlug": "isekai-samurai",
+      "volume": 4,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r929",
+      "seriesSlug": "izumi-and-the-dragon-encyclopedia",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r930",
+      "seriesSlug": "kakegurui-compulsive-gambler",
+      "volume": 20,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r931",
+      "seriesSlug": "laid-back-camp",
+      "volume": 18,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r932",
+      "seriesSlug": "let-this-grieving-soul-retire",
+      "volume": 11,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r933",
+      "seriesSlug": "liste-rouge",
+      "volume": 2,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r934",
+      "seriesSlug": "love-at-the-city-s-edge-on-a-moonlit-night",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r935",
+      "seriesSlug": "magical-midlifer",
+      "volume": 3,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r936",
+      "seriesSlug": "moscow-2160",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r937",
+      "seriesSlug": "my-girlfriend-is-a-colossal-cutie",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r938",
+      "seriesSlug": "pink-habanero",
+      "volume": 6,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r939",
+      "seriesSlug": "shadows-house",
+      "volume": 12,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r940",
+      "seriesSlug": "super-ball-girls",
+      "volume": 5,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r941",
+      "seriesSlug": "sword-art-online-ordinal-scale",
+      "volume": 5,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r942",
+      "seriesSlug": "kingdom",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r943",
+      "seriesSlug": "the-guy-she-was-interested-in-wasn-t-a-guy-at-all",
+      "volume": 2,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r944",
+      "seriesSlug": "the-shiunji-family-children",
+      "volume": 7,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r945",
+      "seriesSlug": "tougen-anki-legend-of-the-cursed-blood",
+      "volume": 6,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r946",
+      "seriesSlug": "tsubaki-chou-lonely-planet",
+      "volume": 13,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r947",
+      "seriesSlug": "witch-and-hound",
+      "volume": 1,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
+      "id": "r948",
+      "seriesSlug": "oshi-no-ko",
+      "volume": 14,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-10-07T19:15:16.167Z"
+  "generatedAt": "2026-11-01T18:18:51.750Z"
 }
