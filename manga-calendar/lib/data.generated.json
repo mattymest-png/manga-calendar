@@ -6167,7 +6167,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "A Man and His Cat manga volume",
-      "coverImage": "https://fyre.cdn.sewest.net/manga-books/6ab66b87da56b86d46ca217a/cover_img_247x350_amanandhiscat_16_covernotfinal-28422109899087347.jpg"
+      "coverImage": "https://fyre.cdn.sewest.net/manga-books/6ab66b87da56b86d46ca217a/cover_img_247x350_amanandhiscat_16_coverfinal-32017553288201704.jpg"
     },
     {
       "slug": "love-in-the-palm-of-his-hand",
@@ -6179,7 +6179,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Love in the Palm of His Hand manga volume",
-      "coverImage": "https://fyre.cdn.sewest.net/manga-books/6ab66be283258e66a650d93b/cover_img_247x350_loveinthepalmofhishand_04_covernotfinal-28420306895673264.jpg"
+      "coverImage": "https://fyre.cdn.sewest.net/manga-books/6ab66be283258e66a650d93b/cover_img_247x350_loveinthepalmofhishand_04_coverfinal-32024249330123283.jpg"
     }
   ],
   "releases": [
@@ -13175,7 +13175,16 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r949",
+      "seriesSlug": "my-clueless-first-friend",
+      "volume": 10,
+      "date": "2027-01-01",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-11-01T18:18:51.750Z"
+  "generatedAt": "2026-11-12T20:42:00.664Z"
 }
