@@ -5762,6 +5762,17 @@
       "coverImage": "https://dwgkfo5b3odmw.cloudfront.net/manga/thumbs/thumb-193548-IchinoseFamilysDeadlySins_DigitalGN01_C1_Web-3-IsMV-E2Cr0VSSVgOfePRTg.jpg"
     },
     {
+      "slug": "witch-watch",
+      "title": "WITCH WATCH",
+      "publisher": "viz",
+      "genre": [
+        "Manga"
+      ],
+      "format": "both",
+      "status": "ongoing",
+      "amazonQuery": "WITCH WATCH manga volume"
+    },
+    {
       "slug": "bocchi-the-rock-comic-anthology",
       "title": "Bocchi the Rock! Comic Anthology",
       "publisher": "yen-press",
@@ -5819,7 +5830,7 @@
       "format": "both",
       "status": "ongoing",
       "amazonQuery": "Two A.M. at the Dining Table manga volume",
-      "coverImage": "https://images.yenpress.com/imgs/9798855430615.jpg?w=171&h=257&type=books&s=0b9d159e1220e2d165913cce3837cb91"
+      "coverImage": "https://images.yenpress.com/imgs/9798855430615.jpg?w=171&h=257&type=books&v=20261123050001&s=c5a68a15b3c0d857c4064db71d642b81"
     },
     {
       "slug": "ascendance-of-a-bookworm-manga-part-2",
@@ -11917,6 +11928,15 @@
       "source": "publisher"
     },
     {
+      "id": "r661",
+      "seriesSlug": "witch-watch",
+      "volume": 19,
+      "date": "2026-08-25",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
+    },
+    {
       "id": "r668",
       "seriesSlug": "bungo-stray-dogs",
       "volume": 6,
@@ -13184,7 +13204,16 @@
       "format": "physical",
       "confirmed": true,
       "source": "publisher"
+    },
+    {
+      "id": "r950",
+      "seriesSlug": "witch-watch",
+      "volume": 20,
+      "date": "2026-11-24",
+      "format": "physical",
+      "confirmed": true,
+      "source": "publisher"
     }
   ],
-  "generatedAt": "2026-11-12T20:42:00.664Z"
+  "generatedAt": "2026-11-24T00:39:00.702Z"
 }
